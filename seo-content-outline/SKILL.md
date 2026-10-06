@@ -100,19 +100,27 @@ Baca `references/outline-formats.md` sebelum menyusun outline. File itu memuat v
 
 ### Aturan heading (H2, H3, H4)
 
-Heading harus informatif seperti judul section artikel sungguhan, bukan potongan kalimat atau label.
+Heading harus informatif seperti judul section artikel majalah/media profesional, bukan lembar ujian atau label kaku.
 
-1. **Bisa dipahami tanpa konteks:** tetap jelas jika dibaca sendiri (daftar isi, hasil Google). Sebut subjek/topiknya.
-2. **Kalimat utuh dan wajar:** pertanyaan lengkap atau pernyataan deskriptif. Hindari fragmen seperti "Yang bikin hasilnya cepat pudar" atau "Kenapa tidak bisa permanen".
-3. **Memberi tahu isi section:** pembaca tahu apa yang akan didapat.
-4. **Keyword masuk secara alami:** tidak wajib di setiap heading.
-5. **Variasikan bentuk:** jangan semua diawali "Apa", "Kenapa", atau "Bagaimana".
-6. **Hindari heading label:** "Yang sering ditanyakan", "Kesimpulan", "Kata dunia medis" → ganti dengan heading yang spesifik (contoh: "Pertanyaan Seputar Daya Tahan Infus Whitening").
+1. **H2 Utama Wajib Dominan Berbentuk Pernyataan Deskriptif (BUKAN Pertanyaan):**
+   - **DILARANG** mengubah seluruh H2 menjadi kalimat tanya berturut-turut (*"Apa Itu X?", "Mengapa X Terjadi?", "Bagaimana Cara Kerja X?", "Kapan Harus ke Dokter?"*). Hal ini membuat daftar isi terlihat seperti kuis/FAQ raksasa, bukan artikel berwibawa.
+   - **Gunakan Pernyataan Informatif/Solutif:** Misal *"Peran Kritis DHA bagi Tumbuh Kembang Janin"*, *"Alasan Biologis Warna Kulit Kembali Gelap"*, *"Sumber Makanan Alami Kaya Kandungan DHA"*.
+   - **Kapan Boleh Berbentuk Pertanyaan?** HANYA diizinkan pada:
+     - Maksimal 1 H2 di awal jika memang membidik jawaban langsung untuk *Featured Snippet* (misal: *"Apakah Infus Whitening Permanen?"*).
+     - Sub-bab pertanyaan di dalam bagian **FAQ**.
+2. **Bisa dipahami tanpa konteks:** tetap jelas jika dibaca sendiri (di daftar isi atau hasil Google). Sebut subjek/topiknya secara gamblang.
+3. **Kalimat utuh dan wajar:** pernyataan deskriptif yang lugas. Hindari fragmen kaku seperti *"Yang bikin hasilnya cepat pudar"* atau *"Kenapa tidak bisa permanen"*.
+4. **Memberi tahu isi section:** pembaca langsung paham apa yang akan didapat dari membaca bagian tersebut.
+5. **Keyword masuk secara alami:** tidak wajib di setiap heading, prioritaskan kejelasan makna.
+6. **Hindari heading label kosong:** "Yang sering ditanyakan", "Kesimpulan", "Kata dunia medis" → ganti dengan heading yang spesifik (contoh: "Pertanyaan Seputar Daya Tahan Infus Whitening").
 7. Jangan memaksakan keyword, melebih-lebihkan, menjanjikan hasil yang tidak didukung, atau meniru frasa khas pesaing.
 
-### Hierarki H2–H4
+### Hierarki H2–H4 & Kedalaman Pembahasan Utama (Anti-Malas 3 Butir)
 
-- Hierarki boleh sampai **H4**. Tidak setiap H2 perlu H3, dan tidak setiap H3 perlu H4.
+- **Pembahasan Inti Wajib Mendalam (Minimal 5–7 H3):**
+  - Jika sebuah H2 merupakan **Core Topic / Pembahasan Utama Artikel** (misalnya: daftar manfaat, jenis makanan, penyebab, tanda/gejala, langkah pengobatan, atau faktor risiko), **WAJIB menyajikan minimal 5 sampai 7 sub-bab H3 (atau poin terperinci)**.
+  - **DILARANG malas membatasi diri hanya pada 2–3 butir (Rule of Three palsu)**. Pecah secara komprehensif agar artikel memiliki kedalaman substansi yang unggul di mata pembaca dan search engine.
+- **Hierarki Fleksibel:** Hierarki boleh sampai **H4**. Tidak setiap H2 perlu H3, dan tidak setiap H3 perlu H4.
 - H3 dipakai bila H2 punya beberapa cabang yang masing-masing butuh penjelasan sendiri.
 - H4 dipakai hanya bila sub-cabang H3 butuh penjelasan sendiri (lebih dari 1–2 kalimat). Jika isinya pendek, cukup bullet di bawah H3.
 - Jangan loncat level (H2 langsung ke H4).

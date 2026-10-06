@@ -34,21 +34,22 @@ Aturan hierarki: boleh sampai H4, tidak loncat level, minimal 2 subheading bila 
 
 ---
 
-## Heading Kaku vs Informatif
+## Format Heading: Pertanyaan Kaku vs Pernyataan Informatif
 
-| Kaku (hindari) | Informatif (gunakan) |
-|---|---|
-| Hasilnya sementara, bukan permanen | Apakah Hasil Infus Whitening Bisa Permanen? |
-| Kenapa tidak bisa permanen | Alasan Hasil Infus Whitening Tidak Bertahan Selamanya |
-| Yang bikin hasilnya cepat pudar | Faktor yang Membuat Kulit Kembali Gelap Setelah Infus Whitening |
-| Efeknya bertahan berapa lama | Berapa Lama Efek Infus Whitening Biasanya Bertahan? |
-| Supaya hasilnya awet, apa yang bisa dilakukan | Cara Menjaga Hasil Infus Whitening Lebih Lama |
-| Kata dunia medis dan aturan resminya | Bagaimana Pandangan Medis dan BPOM tentang Infus Whitening? |
-| Aman, asal syaratnya terpenuhi | Apakah Infus Whitening Aman? Ini Syarat yang Harus Dipenuhi |
-| Efeknya ke seluruh tubuh, bukan wajah saja | Apakah Infus Whitening Hanya Mencerahkan Wajah atau Seluruh Tubuh? |
-| Yang sering ditanyakan | Pertanyaan Seputar Daya Tahan Infus Whitening |
+Hindari mengubah seluruh H2 menjadi kalimat tanya ("Apa...", "Mengapa...", "Bagaimana..."). Gunakan **pernyataan deskriptif/informatif** untuk H2 utama agar artikel berwibawa:
 
-Ciri heading kaku: tanpa subjek, diawali "Yang…", fragmen kalimat, jawaban dijadikan judul tanpa konteks, atau hanya label.
+| Kaku / Serba Tanya (Hindari) | Pernyataan Informatif & Tegas (Gunakan) | Catatan Penggunaan |
+|---|---|---|
+| Apa Saja Manfaat DHA untuk Janin? | Peran Kritis DHA bagi Tumbuh Kembang Janin | Pernyataan berwibawa, langsung ke inti topik |
+| Apa Saja Manfaat DHA untuk Ibu Hamil? | Manfaat Asupan DHA untuk Kesehatan Ibu Hamil | Pernyataan deskriptif, mudah di-scan |
+| Dari Mana Memenuhi Kebutuhan DHA? | Sumber Makanan Alami Kaya Kandungan DHA | Frasa solutif praktis |
+| Mengapa Hasilnya Tidak Bisa Permanen? | Alasan Biologis Warna Kulit Kembali ke Warna Asli | Menjelaskan mekanisme nyata |
+| Yang bikin hasilnya cepat pudar | Faktor yang Mempercepat Pudarnya Efek Perawatan | Kalimat utuh dan formal |
+| Bagaimana Cara Merawat Kulit Agar Awet? | Langkah Perawatan agar Hasil Bertahan Lebih Lama | Panduan tindakan konkret |
+| Apakah Hasil Infus Whitening Bisa Permanen? | Apakah Hasil Infus Whitening Bisa Permanen? | **Boleh:** Maksimal 1 H2 awal untuk target *Featured Snippet* |
+| Yang sering ditanyakan | Pertanyaan Seputar Kebutuhan DHA | **Wajib Tanya di FAQ:** Sub-bab H3 di dalam FAQ |
+
+> 💡 **Aturan Kedalaman Core Topic (Minimal 5–7 H3):** Jika sebuah H2 merupakan topik utama artikel (seperti daftar manfaat, jenis makanan, gejala, faktor risiko), **WAJIB menyajikan minimal 5 sampai 7 sub-bab H3**. DILARANG malas membatasi diri hanya pada 2–3 butir!
 
 ---
 
