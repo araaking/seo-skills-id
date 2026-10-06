@@ -118,6 +118,8 @@ Di Google Docs dan Microsoft Word, setiap paragraf sudah memiliki format spasi b
    - **Bongkar kontras biner:** Dilarang menggunakan pola formulaik "tidak hanya X, tetapi juga Y". Gunakan kalimat aktif langsung ("X sekaligus Y").
    - **Bersihkan terjemahan kaku:** Buang kata "sebuah/seorang" yang tidak perlu, dan jangan gunakan "di mana" kecuali untuk lokasi tempat fisik.
    - **Hindari kata kerja analitis hampa:** Jangan gunakan "menyelami", "mengoptimalkan", "memfasilitasi", "sangat krusial", atau pasangan sinonim mubazir ("efektif dan efisien").
+   - **Dilarang kata mengambang (Anti-Weasel Words):** DILARANG menggantung pembaca dengan kata "kondisi tertentu", "faktor tertentu", atau "situasi tertentu". WAJIB sebutkan contoh kondisinya secara konkret (misal: "pada ibu hamil yang jarang makan ikan atau hamil kembar").
+   - **Dilarang klaim penelitian hantu:** Jangan melempar kalimat mengambang seperti "telah diteliti", "sejumlah penelitian", atau "sebagian meta-analisis". Sebut lembaganya langsung (ACOG, WHO, Cochrane) atau langsung sampaikan faktanya dalam kalimat aktif.
    - **Batasi Em-Dash (`—`):** Gunakan tanda titik (pecah kalimat) atau koma biasa.
    - **Hapus penutup klise:** Dilarang menutup artikel dengan "Semoga artikel ini bermanfaat!", "Selamat mencoba!", atau "Tunggu apa lagi?".
 

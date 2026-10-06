@@ -127,12 +127,29 @@ Jangan mengawali setiap paragraf dengan kata penghubung klise yang monoton:
 
 ---
 
-## 6. Atribusi Sumber yang Nyata (Batas Keras)
+## 6. Atribusi Sumber yang Nyata & Anti-Kata Mengambang (Anti-Weasel Words)
 
-Anti-slop bukan berarti mengarang detail agar terkesan pintar:
-* ❌ **Atribusi Kabur:** *"Para ahli sepakat..."*, *"Banyak penelitian menunjukkan..."*, *"Menurut sumber terpercaya..."*
-* ✅ **Atribusi Spesifik:** Sebutkan siapa penelitinya, nama asosiasi medisnya, lembaganya, atau tautan artikelnya (misal: *"Laporan dari perhimpunan dokter kulit..."*, *"Data Alodokter mencatat..."*).
-* ⚠️ **Dilarang Mengarang Angka:** Jika data persentase atau durasi pasti tidak tersedia dari bahan riset/outline, katakan jujur bahwa data belum ada, atau gunakan placeholder `[Verifikasi: butuh data angka]`. Jangan mengarang "naik 45%" atau "menurut studi Harvard".
+AI sering menggunakan kalimat "pengecut" yang mengambang agar terkesan ilmiah tanpa benar-benar memberikan informasi konkret. Ini sangat dilarang:
+
+### A. Larangan Kata Mengambang ("Tertentu" / Vague Qualifiers)
+Jangan pernah menggantung pembaca dengan kata "tertentu" tanpa penjelasan. Pembaca membaca artikel untuk tahu kepastiannya!
+* ❌ *Slop AI:* "...dapat dipertimbangkan dalam **kondisi tertentu**." (Kondisi apa? Pembaca jadi bingung).
+* ✅ *Konkret:* "...dapat dipertimbangkan **pada ibu hamil yang jarang makan ikan laut, menjalani pola makan vegan, atau mengalami kehamilan kembar**."
+* ❌ *Slop AI:* "Hal ini dipengaruhi oleh **faktor tertentu**."
+* ✅ *Konkret:* "Hal ini dipengaruhi oleh **faktor genetik, usia kehamilan, dan pola makan harian**."
+* **Aturan Emas:** Setiap kali ingin menulis kata *"kondisi tertentu"*, *"faktor tertentu"*, atau *"situasi tertentu"*, **WAJIB langsung sebutkan contoh nyata situasinya**!
+
+### B. Larangan Penelitian Hantu & Atribusi Kabur (*Vague Attribution*)
+Jangan melempar klaim penelitian tanpa identitas yang jelas:
+* ❌ *Slop AI:* "DHA juga **telah diteliti**...", "**Sebagian meta-analisis** menemukan...", "**Sejumlah uji klinis** menunjukkan..."
+* ❌ *Slop AI:* "**Para ahli sepakat** bahwa...", "**Beberapa kelompok ahli** menyarankan..."
+* ✅ **Solusi 1 (Jika ada sumber bernama):** Sebutkan lembaganya langsung (*"Tinjauan Cochrane menemukan..."*, *"Pedoman ACOG menyarankan..."*, *"Dokter spesialis obstetri menilai..."*).
+* ✅ **Solusi 2 (Jika tidak ada nama studi spesifik):** Buang embel-embel penelitian hantu dan **sampaikan faktanya secara lugas dalam kalimat aktif**:
+  * *Bukan:* "DHA telah diteliti dan sebagian penelitian menemukan kemungkinan manfaat..."
+  * *Melainkan:* "Asupan DHA berpotensi membantu menurunkan risiko preeklamsia, meski hasil uji klinisnya belum sepenuhnya konsisten."
+
+### C. Dilarang Mengarang Angka (*No Invention Rule*)
+* Jangan mengarang angka persentase fiktif ("turun 37%") atau nama studi rekaan ("menurut riset Oxford 2024"). Jika data angka pasti tidak ada di outline, sampaikan kualitatif secara jujur tanpa mengarang.
 
 ---
 
@@ -146,4 +163,6 @@ Sebelum menyerahkan naskah artikel, lakukan audit mandiri:
 - [ ] Apakah ada pasangan sinonim mubazir seperti *"efektif dan efisien"*? (Pangkas).
 - [ ] Apakah em-dash (`—`) bertebaran? (Ganti dengan koma atau pecah jadi dua kalimat).
 - [ ] Apakah paragraf bernapas (2–3 kalimat per paragraf, 30–50 kata)?
+- [ ] Apakah ada kata mengambang seperti *"kondisi tertentu"* atau *"faktor tertentu"*? (Wajib sebutkan contoh kondisinya konkret!).
+- [ ] Apakah ada klaim penelitian hantu seperti *"telah diteliti"* atau *"sejumlah penelitian"* tanpa nama lembaga? (Sebut lembaganya atau nyatakan faktanya langsung secara aktif).
 - [ ] Apakah penutup bebas dari salam klise seperti *"Semoga bermanfaat"* atau *"Tunggu apa lagi"*?
