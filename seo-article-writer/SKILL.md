@@ -7,7 +7,7 @@ description: Write complete, useful Indonesian SEO articles from a topic, brief,
 
 Turn the user's topic or article brief into a complete, readable Indonesian SEO article. The goal is a high-quality editorial draft that thoroughly answers the reader's search intent and is ready for human editorial review or publishing.
 
-**Before drafting, read [references/house-style.md](references/house-style.md)** for layout rules: meta table, single-enter spacing (`\n`), bullet point formatting (`• `), heading capitalization, image captions, internal links, FAQ, Referensi, and document settings. Read [references/contoh-artikel.md](references/contoh-artikel.md) to calibrate tone, rhythm, and paragraph splitting across different topic categories.
+**Before drafting, read [references/house-style.md](references/house-style.md)** for layout rules: meta table, single-enter spacing (`\n`), bullet point formatting (`• `), heading capitalization, image captions, internal links, FAQ, Referensi, and document settings. **Read [references/anti-slop.md](references/anti-slop.md)** to enforce strict anti-slop rules (banned cliches, structural patterns, copula avoidance, and natural Indonesian phrasing). Read [references/contoh-artikel.md](references/contoh-artikel.md) to calibrate tone, rhythm, and paragraph splitting across different topic categories.
 
 ---
 
@@ -99,7 +99,7 @@ Di Google Docs dan Microsoft Word, setiap paragraf sudah memiliki format spasi b
 
 ---
 
-## 4. Editorial Standards & Anti-Slop (Diadaptasi dari v1.0)
+## 4. Editorial Standards & Anti-Slop (Patuhi [references/anti-slop.md](references/anti-slop.md))
 
 1. **Anti-Meta-Writing (Dilarang Menulis Proses Penulisan):**
    - Jangan pernah menyebut proses menulis di dalam naskah artikel (contoh dilarang: "Artikel ini akan membahas...", "Pada bagian ini penulis memaparkan...", "Seperti yang telah kita ketahui di bab sebelumnya...").
@@ -113,9 +113,13 @@ Di Google Docs dan Microsoft Word, setiap paragraf sudah memiliki format spasi b
    - Jangan mengarang data statistik, angka persentase fiktif, nama peneliti rekaan, atau URL rujukan palsu.
    - Jika detail spesifik (seperti harga paket terbaru atau jadwal spesifik) tidak diketahui, gunakan placeholder `[isi: harga paket terbaru]` dan cantumkan di **Catatan Editor**.
 
-4. **Anti-Robotic Phrasing (Hapus Klise AI):**
-   - Hapus pembuka klise seperti "Di era digital yang serba cepat ini", "Seiring dengan perkembangan zaman", "Tak dapat dipungkiri bahwa", "Bagaikan dua sisi mata uang".
-   - Buka artikel langsung dengan situasi konkret, rasa penasaran, atau permasalahan nyata yang dihadapi pembaca.
+4. **Pembongkaran Pola Slop AI (Wajib):**
+   - **Hapus pembuka klise:** "Di era digital saat ini", "Seiring dengan perkembangan zaman", "Tak dapat dipungkiri bahwa", "Berikut adalah".
+   - **Bongkar kontras biner:** Dilarang menggunakan pola formulaik "tidak hanya X, tetapi juga Y". Gunakan kalimat aktif langsung ("X sekaligus Y").
+   - **Bersihkan terjemahan kaku:** Buang kata "sebuah/seorang" yang tidak perlu, dan jangan gunakan "di mana" kecuali untuk lokasi tempat fisik.
+   - **Hindari kata kerja analitis hampa:** Jangan gunakan "menyelami", "mengoptimalkan", "memfasilitasi", "sangat krusial", atau pasangan sinonim mubazir ("efektif dan efisien").
+   - **Batasi Em-Dash (`—`):** Gunakan tanda titik (pecah kalimat) atau koma biasa.
+   - **Hapus penutup klise:** Dilarang menutup artikel dengan "Semoga artikel ini bermanfaat!", "Selamat mencoba!", atau "Tunggu apa lagi?".
 
 ---
 
