@@ -7,7 +7,7 @@ description: Write complete, useful Indonesian SEO articles from a topic, brief,
 
 Turn the user's topic or article brief into a complete, readable Indonesian SEO article. The goal is a high-quality editorial draft that thoroughly answers the reader's search intent and is ready for human editorial review or publishing.
 
-**Before drafting, read [references/house-style.md](references/house-style.md)** for layout rules: meta table, single-enter spacing (`\n`), bullet point formatting (`• `), heading capitalization, image captions, internal links, FAQ, Referensi, and document settings. **Read [references/anti-slop.md](references/anti-slop.md)** to enforce strict anti-slop rules (banned cliches, structural patterns, copula avoidance, and natural Indonesian phrasing). Read [references/contoh-artikel.md](references/contoh-artikel.md) to calibrate tone, rhythm, and paragraph splitting across different topic categories.
+**Before drafting, read [references/house-style.md](references/house-style.md)** for layout rules: meta table, single-enter spacing (`\n`), bullet point formatting (`• `), heading capitalization, image captions, internal links, FAQ, Referensi, and document settings. **Read [references/anti-slop.md](references/anti-slop.md)** to enforce strict anti-slop rules (banned cliches, structural patterns, copula avoidance, and natural Indonesian phrasing). **Read [references/google-genai-guidelines.md](references/google-genai-guidelines.md)** to comply with official Google Search guidelines on AI Overviews, RAG passage retrieval, and non-commodity content standards. Read [references/contoh-artikel.md](references/contoh-artikel.md) to calibrate tone, rhythm, and paragraph splitting across different topic categories.
 
 ---
 
@@ -123,12 +123,17 @@ Di Google Docs dan Microsoft Word, setiap paragraf sudah memiliki format spasi b
    - **Batasi Em-Dash (`—`):** Gunakan tanda titik (pecah kalimat) atau koma biasa.
    - **Hapus penutup klise:** Dilarang menutup artikel dengan "Semoga artikel ini bermanfaat!", "Selamat mencoba!", atau "Tunggu apa lagi?".
 
+5. **Google GenAI & Non-Commodity Standards (Patuhi [references/google-genai-guidelines.md](references/google-genai-guidelines.md)):**
+   - **Prinsip Non-Commodity Content:** Dilarang menghasilkan artikel komoditas pasaran yang hanya mendaur ulang pengetahuan umum dangkal. Wajib menyajikan sudut pandang unik (*unique point of view*), contoh situasi konkret, dan penjelasan mekanisme mendalam (*high-effort value-add*).
+   - **RAG-Ready Direct Answer:** Pada 1–2 kalimat pertama di bawah setiap H2, langsung berikan jawaban tegas, padat, dan faktual terhadap inti pertanyaan/topik heading agar mudah dikutip sistem RAG Google untuk AI Overviews.
+   - **Search Quality Rater Standard (QRG 4.6.6):** Setiap paragraf harus mencerminkan riset berbobot, akurat, dan terbebas total dari halusinasi data.
+
 ---
 
 ## 5. How to Handle Briefs & Outlines
 
 - **Writer notes are instructions, not copy:** Ubah catatan penulis menjadi kalimat prosa jadi yang luwes. Jangan pernah mencantumkan label "Catatan penulis" atau bullet mentah ke dalam naskah akhir.
-- **Ikuti struktur outline yang diberikan:** Kembangkan setiap H2 dan H3 secara tuntas sesuai format yang diinstruksikan brief (apakah format jawaban langsung, sub-bab H3, bullet list `• `, atau tabel).
+- **Ikuti struktur outline yang diberikan:** Kembangkan setiap H2, H3, dan H4 secara tuntas sesuai format yang diinstruksikan brief (apakah format jawaban langsung, sub-bab H3, bullet list `• `, atau tabel).
 - **Penyebaran kata kunci yang alami:** Sebarkan keyword utama dan variasi kata kunci secara wajar pada H1, pendahuluan, subjudul relevan, dan badan teks tanpa *keyword stuffing*.
 
 ---
@@ -139,10 +144,10 @@ Keluarkan naskah artikel langsung tanpa kata pengantar ("Halo", "Berikut artikel
 
 1. **Meta Information Table:**
    - Bold label `**Meta Information**`
-   - Tabel 2 kolom: `Title` (60–75 karakter), `Description` (140–160 karakter), `Slug` (huruf kecil dengan tanda hubung).
-2. **Pendahuluan:**
-   - 2–3 paragraf ringkas (sekitar 60–90 kata total), enter sekali antar-paragraf. Tanpa H1 di badan teks (Title meta sudah menjadi H1 halaman).
-3. **Badan Artikel (H2 dan H3):**
+   - Tabel 2 kolom: `Title` (45–60 karakter, catchy & humanis), `Description` (120–145 karakter, to the point + CTA), `Slug` (huruf kecil dengan tanda hubung).
+2. **Pendahuluan (Tanpa H1 Dobel di Badan Teks):**
+   - Langsung buka dengan 2–3 paragraf ringkas (sekitar 60–90 kata total), enter sekali antar-paragraf. **DILARANG menulis H1 lagi di badan artikel** karena judul sudah tercantum di tabel Meta.
+3. **Badan Artikel (H2, H3, H4):**
    - Format judul *Title Case* bahasa Indonesia. Istilah asing dicetak miring (*italic*), termasuk di dalam judul.
    - Setiap H2 diawali 1–2 paragraf pembuka sebelum masuk ke H3, list, atau gambar.
    - Gambar format: `[Gambar: instruksi visual]` lalu di bawahnya `Caption Gambar | Sumber: Nama Situs` (enter sekali).
