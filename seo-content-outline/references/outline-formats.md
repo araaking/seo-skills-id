@@ -1,6 +1,6 @@
 # Variasi Format dan Contoh Output Outline
 
-File referensi untuk skill `seo-content-outline-research`. Output harus **langsung to the point**, tanpa basa-basi pengantar.
+File referensi untuk skill `seo-content-outline`. Output harus **langsung to the point**, tanpa basa-basi pengantar.
 
 ## Urutan Output Standar
 
@@ -49,7 +49,7 @@ Hindari mengubah seluruh H2 menjadi kalimat tanya ("Apa...", "Mengapa...", "Baga
 | Apakah Hasil Infus Whitening Bisa Permanen? | Apakah Hasil Infus Whitening Bisa Permanen? | **Boleh:** Maksimal 1 H2 awal untuk target *Featured Snippet* |
 | Yang sering ditanyakan | Pertanyaan Seputar Kebutuhan DHA | **Wajib Tanya di FAQ:** Sub-bab H3 di dalam FAQ |
 
-> 💡 **Aturan Kedalaman Core Topic (Minimal 5–7 H3):** Jika sebuah H2 merupakan topik utama artikel (seperti daftar manfaat, jenis makanan, gejala, faktor risiko), **WAJIB menyajikan minimal 5 sampai 7 sub-bab H3**. DILARANG malas membatasi diri hanya pada 2–3 butir!
+> 💡 **Aturan Kedalaman Core Topic (Minimal 5–7 H3):** Jika sebuah H2 merupakan topik utama artikel (seperti daftar manfaat, jenis makanan, gejala, faktor risiko), **WAJIB menyajikan minimal 5 sampai 7 sub-bab H3**. DILARANG malas membatasi diri hanya pada 2–3 butir! **Pengecualian YMYL:** jumlah butir manfaat/kandungan mengikuti jumlah klaim yang bersumber Prioritas 1–2, bukan kuota.
 
 ---
 
@@ -64,7 +64,7 @@ Hindari mengubah seluruh H2 menjadi kalimat tanya ("Apa...", "Mengapa...", "Baga
 **Gunakan salah satu teknik:**
 1. **Sambungan dari jawaban:** "Hasilnya memang tidak bertahan selamanya, tapi seberapa cepat memudar sangat bergantung pada kebiasaan setelah perawatan."
 2. **Bingkai manfaat pembaca:** "Memahami cara kerjanya bisa membantu kamu menyusun ekspektasi yang lebih realistis sebelum memutuskan."
-3. **Kontras:** "Banyak yang mengira cukup sekali datang, padahal hasilnya justru ditentukan oleh apa yang dilakukan setelahnya."
+3. **Konsesi (memang… tapi…):** "Satu sesi memang bisa membuat kulit tampak lebih cerah, tapi daya tahannya ditentukan oleh kebiasaan setelah perawatan." Hindari pola "banyak yang mengira…, padahal…" atau "bukan… melainkan…".
 4. **Singgung 2–3 hal secara umum** tanpa mengurutkan section.
 
 ---
@@ -103,6 +103,7 @@ Jawab tegas dalam 2–3 kalimat: hasilnya sementara dan perlu dilakukan berulang
 - Infus whitening hanya memberi hasil kulit putih yang sementara, bukan permanen [alodokter](https://www.alodokter.com/infus-whitening-kenali-kandungan-dan-efek-sampingnya)
 - Karena efeknya tidak permanen, pengguna cenderung memakai infus whitening secara berulang [nu.or.id](https://nu.or.id/kesehatan/amankah-infus-pemutih-kulit-ini-kajian-dari-farmasi-dan-thibbun-nabawi-3T36q)
 - Efek pemutihan suntik putih sering bersifat sementara [liputan6](https://www.liputan6.com/feeds/read/5801523/apa-efek-samping-suntik-putih-risiko-dan-bahaya-yang-perlu-diwaspadai)
+- Satu kalimat status regulasi: BPOM menyatakan suntik putih yang beredar tanpa izin edar adalah produk ilegal [BPOM](https://intelijen.pom.go.id/hot-issue/suntik-putih-ilusi-cantik-instan-yang-mematikan). Tulis kondisional (tanpa izin edar = ilegal), jangan digeneralisasi ke semua tindakan, lalu tautkan ke artikel keamanan.
 
 #### H2: Alasan Hasil Infus Whitening Tidak Bertahan Selamanya
 Buka dengan 1–2 kalimat pengantar bahwa ada beberapa alasan biologis, lalu pecah per alasan.
@@ -133,7 +134,7 @@ Pengantar 1–2 kalimat, lalu sajikan tiap faktor sebagai bullet berisi alasan +
 - **Respons tubuh tiap orang:** efeknya berbeda pada setiap orang [alodokter](https://www.alodokter.com/infus-whitening-kenali-kandungan-dan-efek-sampingnya). **[Verifikasi: pengaruh genetik, usia, hormon]**
 - **Gaya hidup:** kurang tidur, rokok, polusi, dan nutrisi [zalora](https://www.zalora.co.id/blog/kecantikan/manfaat-dan-resiko-infus-whitening/). **[Verifikasi: sumber dermatologi]**
 
-#### H2: Berapa Lama Efek Infus Whitening Biasanya Bertahan?
+#### H2: Perkiraan Lama Efek Infus Whitening Bertahan
 Paragraf kalibrasi: jelaskan jujur bahwa tidak ada patokan baku karena bergantung pada faktor di atas.
 - Tampilkan data yang ada, yaitu jadwal 2 mingguan [alodokter](https://www.alodokter.com/infus-whitening-kenali-kandungan-dan-efek-sampingnya)
 - **[Verifikasi: data durasi dari sumber klinis]**. Jika tidak ketemu, tulis bahwa belum ada patokan baku.
@@ -151,7 +152,7 @@ Jawab tiap pertanyaan dalam 2–3 kalimat.
 - **H3: Apakah Infus Whitening Bisa Permanen Jika Dilakukan Rutin?** Tidak. Sesi rutin hanya mempertahankan efek selama dijalani.
 - **H3: Apakah Infus Whitening Aman Dilakukan Terus-Menerus?** Jawab singkat, lalu arahkan ke artikel keamanan.
 
-#### H2: Kapan Sebaiknya Konsultasi dengan Dokter Sebelum Infus Whitening?
+#### H2: Konsultasi Dokter sebelum Memutuskan Infus Whitening
 Penutup: ulangi singkat bahwa hasilnya tidak permanen, lalu anjurkan konsultasi dokter untuk menyesuaikan ekspektasi. Tanpa CTA booking.
 
 #### Dipindahkan
@@ -163,7 +164,7 @@ Penutup: ulangi singkat bahwa hasilnya tidak permanen, lalu anjurkan konsultasi 
 - **Keyword turunan:**
   - kenapa infus whitening tidak permanen → H2 Alasan
   - kalau berhenti infus apakah kembali gelap → H2 Faktor, FAQ
-  - infus whitening tahan berapa lama → H2 Berapa Lama
+  - infus whitening tahan berapa lama → H2 Perkiraan Lama Efek
 - **Dipisah:** harga infus whitening (intent transaksional), infus whitening aman atau tidak (artikel keamanan)
 
 ### 5. Sumber / Referensi
@@ -172,12 +173,13 @@ Penutup: ulangi singkat bahwa hasilnya tidak permanen, lalu anjurkan konsultasi 
 - [Apa Efek Samping Suntik Putih? Risiko dan Bahaya yang Perlu Diwaspadai](https://www.liputan6.com/feeds/read/5801523/apa-efek-samping-suntik-putih-risiko-dan-bahaya-yang-perlu-diwaspadai) | Liputan6
 - [Jangan Sembarangan, Ini Efek Samping Infus Whitening bagi Kesehatan](https://www.kompas.tv/lifestyle/469867/jangan-sembarangan-ini-efek-samping-infus-whitening-bagi-kesehatan) | Kompas TV
 - [Infus Whitening](https://alomedika.com/komunitas/topic/infus-whitening) | Alomedika
+- [Suntik Putih: Ilusi Cantik Instan yang Mematikan](https://intelijen.pom.go.id/hot-issue/suntik-putih-ilusi-cantik-instan-yang-mematikan) | BPOM
 - [Berapa Kali Suntik Putih?](https://www.honestdocs.id/berapa-kali-suntik-putih) | HonestDocs
 - [Manfaat dan Risiko Infus Whitening](https://www.zalora.co.id/blog/kecantikan/manfaat-dan-resiko-infus-whitening/) | Zalora
 
 **Catatan Riset Lanjutan:**
 - Sumber untuk metabolisme glutathione/vitamin C dan pengaruh UV belum ditemukan. Cari di PubMed/PMC atau artikel dokter kulit.
-- Sumber yang layak dicari: BPOM atau Kemenkes soal infus pemutih, dan jurnal *Systemic skin whitening/lightening agents: What is the evidence?*
+- Sumber yang layak dicari: Kemenkes atau IDI soal infus pemutih, dan jurnal *Systemic skin whitening/lightening agents: What is the evidence?*
 - HonestDocs dan Zalora termasuk Prioritas 3 (menawarkan layanan atau produk). Pakai sebagai pelengkap dan ganti dengan sumber yang lebih kuat bila ada.
 
 ### 6. Catatan untuk Penulis

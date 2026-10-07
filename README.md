@@ -30,9 +30,10 @@ Skill untuk meriset topik atau keyword SEO lalu menyusun outline artikel yang si
 
 ### 2. `seo-article-writer`
 Skill untuk mengeksekusi penulisan naskah artikel SEO lengkap berbasis brief atau outline:
-* **Editorial Standards & Anti-Slop:** Bebas dari klise robotik AI (*"Di era modern saat ini"*, *"tidak hanya X tapi juga Y"*), menerapkan prinsip *claim calibration* dan gaya penulisan bernapas (2–3 kalimat per paragraf).
-* **Format Bersih & Rapi:** Single line-break (`\n`) untuk Google Docs/Word, simbol bullet unicode bulat (`• `), dan tanpa H1 dobel di badan teks.
-* **Terintegrasi:** Mendukung hierarki H2–H4 dan instruksi khusus dari outline.
+* **Editorial Standards & Anti-Slop:** Bebas dari klise robotik AI (*"Di era modern saat ini"*, *"tidak hanya X tapi juga Y"*, *"Artikel ini membedah…"*), dengan ritme paragraf yang bervariasi dan prinsip *claim calibration*.
+* **Output Siap Pakai di Mana Saja:** Format disesuaikan dengan tujuan, yaitu Markdown siap salin di chat (Claude/ChatGPT), Google Docs lewat connector (Claude Cowork) atau Google Workspace API (Hermes agent, script), file .docx, atau teks polos. Hasilnya berupa list asli (tanpa bullet ganda), tabel meta asli, heading asli, tanpa paragraf kosong, dan selalu diperiksa ulang setelah ditulis.
+* **YMYL Claim Gate:** Untuk topik kesehatan, obat, tindakan klinik, keuangan, dan hukum, artikel wajib memuat status regulasi (BPOM/Kemenkes), sumber per klaim, kecocokan rute pemberian, risiko serius, serta Catatan Editor untuk review dokter.
+* **Terintegrasi:** Mengikuti struktur heading outline dan menghormati penanda `[Verifikasi]`, `[Review medis]`, dan `[Pengalaman]` dari `seo-content-outline`.
 
 ### 3. `seo-meta-generator`
 Skill khusus untuk membuat Meta Title (Title Tag), Meta Description, dan URL Slug yang optimal, memikat (High-CTR), dan mematuhi batasan Google SERP:
@@ -53,7 +54,7 @@ Skill khusus untuk membuat Meta Title (Title Tag), Meta Description, dan URL Slu
 3. Panggil skill sesuai tahap pengerjaan:
    * Gunakan `seo-content-outline` saat memulai perencanaan topik/keyword.
    * Gunakan `seo-article-writer` dengan melampirkan hasil outline untuk memproduksi artikel utuh.
-   * Gunakan `seo-meta-generator` untuk meracik metadata halaman (baik untuk artikel blog maupun landing page).
+   * Gunakan `seo-meta-generator` untuk meracik metadata halaman (baik untuk artikel blog maupun landing page). Artikel dari `seo-article-writer` sudah memuat tabel meta; pakai skill ini bila butuh 3 varian A/B atau metadata untuk halaman non-artikel.
 
 ---
 

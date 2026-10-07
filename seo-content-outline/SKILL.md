@@ -72,7 +72,8 @@ Untuk topik medis, kecantikan klinis, obat, prosedur, atau kesehatan mental:
 - Tandai **[Review medis]** pada section yang sebaiknya ditinjau tenaga medis sebelum terbit.
 - Beri rambu eksplisit untuk penulis bila ada risiko klaim berlebihan (contoh: "Hindari janji durasi tanpa sumber klinis").
 - Jika konteks bisnis (klinik, produk) diberikan, tempatkan penyebutan layanan sebagai section terpisah di akhir dan jaga bagian informatif tetap netral.
-- Untuk menulis atau mengaudit artikel medis penuh, arahkan ke skill `artikel-medis-eeat` bila tersedia.
+- Untuk menulis artikel penuh dari outline ini, pakai skill `seo-article-writer` (punya *YMYL claim gate* yang membaca penanda **[Verifikasi]**, **[Review medis]**, dan **[Pengalaman]**). Untuk audit medis mendalam, pakai skill `artikel-medis-eeat` bila tersedia.
+- Untuk produk atau tindakan yang diinjeksikan/diinfus, obat, dan suplemen, sediakan satu section atau poin tentang **status regulasi** (izin edar BPOM, indikasi resmi, penggunaan *off-label*) dengan sumber BPOM, Kemenkes, atau IDI/perhimpunan spesialis, atau tandai **[Verifikasi: status izin edar BPOM untuk X]**.
 
 ## Cluster dan kanibalisasi
 
@@ -95,7 +96,7 @@ Baca `references/outline-formats.md` sebelum menyusun outline. File itu memuat v
 - **Preview dibuat umum dan natural**, bukan daftar isi. Dilarang memakai frasa: "Artikel ini akan membahas…", "Simak penjelasan lengkapnya berikut ini!", "Yuk, cari tahu…", atau mengulang daftar H2. Gunakan salah satu teknik:
   1. **Sambungan dari jawaban:** preview melanjutkan jawaban singkat (contoh: "Hasilnya memang tidak bertahan selamanya, tapi seberapa cepat memudar sangat bergantung pada kebiasaan setelah perawatan.").
   2. **Bingkai manfaat pembaca:** sebut apa yang akan pembaca pahami, bukan apa yang dibahas artikel.
-  3. **Kontras:** pola "memang… tapi…" atau "bukan… melainkan…".
+  3. **Konsesi:** pola "memang… tapi…". Hindari pola "bukan… melainkan…" atau "banyak yang mengira…, padahal…" karena membingkai teks sebagai koreksi atas anggapan pembaca, pola yang dilarang di skill `seo-article-writer`.
   4. **Singgung 2–3 hal secara umum** tanpa mengurutkan section.
 
 ### Aturan heading (H2, H3, H4)
@@ -120,6 +121,8 @@ Heading harus informatif seperti judul section artikel majalah/media profesional
 - **Pembahasan Inti Wajib Mendalam (Minimal 5–7 H3):**
   - Jika sebuah H2 merupakan **Core Topic / Pembahasan Utama Artikel** (misalnya: daftar manfaat, jenis makanan, penyebab, tanda/gejala, langkah pengobatan, atau faktor risiko), **WAJIB menyajikan minimal 5 sampai 7 sub-bab H3 (atau poin terperinci)**.
   - **DILARANG malas membatasi diri hanya pada 2–3 butir (Rule of Three palsu)**. Pecah secara komprehensif agar artikel memiliki kedalaman substansi yang unggul di mata pembaca dan search engine.
+  - **Kecuali YMYL (kesehatan, obat, tindakan klinik, keuangan, hukum):** jumlah H3 manfaat, khasiat, atau kandungan mengikuti jumlah klaim yang didukung sumber Prioritas 1–2. Jika bukti hanya mendukung 2 manfaat, tulis 2 dan tambahkan poin bahwa klaim lain belum terbukti. Menambah butir tanpa sumber demi kuota adalah *filler* (QRG 5.2.2) dan berisiko menyesatkan pembaca.
+  - Jika satu H3 hanya berisi 1–2 kalimat, gabungkan item-item itu menjadi list atau tabel di bawah H2, bukan H3 terpisah.
 - **Hierarki Fleksibel:** Hierarki boleh sampai **H4**. Tidak setiap H2 perlu H3, dan tidak setiap H3 perlu H4.
 - H3 dipakai bila H2 punya beberapa cabang yang masing-masing butuh penjelasan sendiri.
 - H4 dipakai hanya bila sub-cabang H3 butuh penjelasan sendiri (lebih dari 1–2 kalimat). Jika isinya pendek, cukup bullet di bawah H3.

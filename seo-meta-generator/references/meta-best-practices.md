@@ -14,7 +14,7 @@ Panduan teknis dan formula *copywriting* untuk skill `seo-meta-generator`. Dokum
 * **Selaras dengan On-Page (H1):** Title tag dan H1 harus saling mengonfirmasi. Mismatch antara Title dan H1 memicu Google me-*rewrite* judul secara otomatis.
 
 ### B. Meta Description
-* **Batas Karakter:** **130–155 karakter** (maksimal 160 karakter sebelum terpotong elipsis `...`).
+* **Batas Karakter:** **130–155 karakter**. Google memotong berdasarkan lebar piksel, bukan jumlah karakter, jadi 155 dipakai sebagai batas aman.
 * **Lead with Value:** Buka langsung dengan inti manfaat, solusi, atau jawaban. Dilarang memakai basa-basi pengantar seperti *"Dalam artikel ini kami..."* atau *"Apakah Anda ingin..."*.
 * **No Keyword Stuffing:** Jangan menyusun daftar kata kunci koma-komaan. Google mengutamakan ringkasan alami yang informatif.
 * **Call to Action (CTA):** Tutup selalu dengan ajakan bertindak yang jelas sesuai intensi halaman (*"Simak ulasannya!", "Konsultasi sekarang!", "Cek faktanya di sini!"*).
@@ -30,12 +30,12 @@ Fokus: Menjawab pertanyaan pembaca, rasa penasaran, atau panduan langkah.
   * Pola Pertanyaan: `[Pertanyaan Utama]? [Hook / Cek Faktanya] | [Brand]`
   * Pola Solutif: `[Topik / Masalah]: [Cara / Solusi Praktis]`
   * *Contoh:*
-    * `Apakah Infus Whitening Permanen? Cek Faktanya!` (48 karakter)
+    * `Apakah Infus Whitening Permanen? Cek Faktanya!` (46 karakter)
     * `Ciri-Ciri Hamil Muda: Tanda Awal yang Perlu Diketahui` (53 karakter)
 * **Formula Meta Description:**
   * `[Keresahan / Fakta Inti] + [Jaminan Jawaban / Pembahasan] + [CTA Baca]`
   * *Contoh:*
-    * `Penasaran apakah hasil infus pemutih bisa bertahan selamanya? Simak penjelasan medis, faktor yang bikin pudar, dan cara merawatnya di sini.` (144 karakter)
+    * `Penasaran apakah hasil infus pemutih bisa bertahan selamanya? Simak penjelasan medis, faktor yang bikin pudar, dan cara merawatnya di sini.` (139 karakter)
 
 ---
 
@@ -51,7 +51,7 @@ Fokus: Membangun kepercayaan (*trust*), menonjolkan kredibilitas/dokter/legalita
 * **Formula Meta Description:**
   * `[Solusi Layanan] + [Kredibilitas / Fasilitas / Izin BPOM] + [CTA Booking / Konsultasi]`
   * *Contoh:*
-    * `Dapatkan kulit cerah terawat dengan infus whitening aman di bawah pengawasan dokter spesialis. Bahan BPOM & fasilitas steril. Konsultasi hari ini!` (150 karakter)
+    * `Dapatkan kulit cerah terawat dengan infus whitening aman di bawah pengawasan dokter spesialis. Bahan BPOM & fasilitas steril. Konsultasi hari ini!` (146 karakter)
 
 ---
 
@@ -66,7 +66,7 @@ Fokus: Menampilkan spesifikasi, keaslian produk, promo, dan ajakan beli.
 * **Formula Meta Description:**
   * `[Fungsi Produk] + [Kandungan / Keunggulan / Gratis Ongkir] + [CTA Beli]`
   * *Contoh:*
-    * `Beli Serum Retinol 1% original berizin BPOM. Efektif menyamarkan noda hitam dan mempercepat regenerasi kulit. Garansi asli & gratis ongkir. Beli sekarang!` (158 karakter)
+    * `Beli Serum Retinol 1% original berizin BPOM. Efektif menyamarkan noda hitam dan mempercepat regenerasi kulit. Garansi asli & gratis ongkir. Beli sekarang!` (154 karakter)
 
 ---
 
@@ -80,7 +80,7 @@ Fokus: Posisi bisnis secara payung besar dan nilai pembeda utama di industri.
 * **Formula Meta Description:**
   * `[Pengenalan Brand] + [Rangkaian Layanan Unggulan] + [Alasan Memilih Kami] + [CTA Kunjungi]`
   * *Contoh:*
-    * `Solusi perawatan kulit dan estetika medis terpercaya di Indonesia. Ditangani langsung dokter bersertifikat dengan teknologi terkini. Temukan klinik terdekat!` (161 karakter)
+    * `Perawatan kulit dan estetika medis di Indonesia, ditangani langsung dokter bersertifikat dengan teknologi terkini. Temukan cabang klinik terdekat sekarang!` (155 karakter)
 
 ---
 
@@ -90,7 +90,7 @@ Fokus: Layanan spesifik di kota/wilayah tertentu.
 * **Formula Title Tag:**
   * `[Layanan / Spesialis] di [Kota / Daerah] - [Keunggulan] | [Brand]`
   * *Contoh:*
-    * `Dokter Kulit & Jerawat di Jakarta Barat | SOZO Clinic` (54 karakter)
+    * `Dokter Kulit & Jerawat di Jakarta Barat | SOZO Clinic` (53 karakter)
 * **Formula Meta Description:**
   * `Cari [layanan] terdekat di [Kota]? [Brand] melayani [layanan spesifik] dengan dokter ahli & lokasi strategis di [Daerah]. Hubungi kami untuk jadwal!`
 

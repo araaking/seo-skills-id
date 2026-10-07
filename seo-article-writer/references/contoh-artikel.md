@@ -1,145 +1,272 @@
 # Contoh Artikel
 
-Kumpulan contoh naskah artikel yang menerapkan aturan *house style*: **Hanya enter sekali (`\n`)**, **paragraf bernapas (2–3 kalimat ringkas, 30–50 kata)**, **bullet point dengan simbol bulat `• `**, dan **kalibrasi nada sesuai jenis topik** (akademik, kesehatan/YMYL, dan bisnis/gaya hidup ringan).
+Tiga contoh penerapan house style. Semuanya ditulis dalam **Markdown siap salin (channel A)**: satu baris kosong antarblok, list memakai `- `, dan tabel diapit baris kosong. Untuk Google Docs atau .docx, isinya sama dan cara penyajiannya mengikuti [output-channels.md](output-channels.md).
 
----
-
-## Contoh A: Topik Umum / Akademik (Penelitian Korelasional)
-
-Menunjukkan bagaimana format diterapkan pada konsep ilmiah dengan penjelasan yang terstruktur, analogi jelas, dan paragraf bernapas.
-
-**Meta Information**
-
-| Element | Content |
-|---|---|
-| Title | Penelitian Korelasional: Pengertian, Jenis, Langkah & Contohnya |
-| Description | Penelitian korelasional mengukur hubungan antarvariabel tanpa memanipulasinya. Pelajari jenis, langkah, dan contoh penerapannya di sini. |
-| Slug | penelitian-korelasional |
-Sedang menyusun skripsi dan ingin tahu apakah dua variabel saling berkaitan tanpa harus melakukan eksperimen laboratorium? Penelitian korelasional kerap menjadi metode kuantitatif yang paling efisien untuk menjawab kebutuhan tersebut.
-Metode ini dirancang untuk mendeteksi arah dan derajat hubungan statistik antarvariabel di lapangan. Peneliti hanya mengukur kondisi apa adanya dari subjek tanpa memberikan intervensi buatan.
-Agar tidak keliru dalam memilih metode dan mengolah datanya, simak ulasan lengkap mengenai pengertian, jenis, langkah pelaksanaan, hingga contoh penelitian korelasional berikut.
-## Apa Itu Penelitian Korelasional?
-Penelitian korelasional adalah jenis penelitian kuantitatif noneksperimental yang bertujuan mengetahui keterkaitan antara dua variabel atau lebih. Peneliti mengamati dan mengukur variasi data secara alami tanpa memanipulasi variabel independen.
-Kekuatan hubungan antarvariabel dinyatakan melalui koefisien korelasi dengan rentang angka antara −1 hingga +1. Angka ini menunjukkan seberapa erat kedua variabel bergerak bersama.
-Penting dipahami bahwa korelasi tidak sama dengan sebab-akibat. Adanya hubungan statistik yang kuat belum tentu membuktikan bahwa variabel pertama secara langsung menyebabkan timbulnya variabel kedua.
-## Jenis Penelitian Korelasional
-Dalam riset sosial dan pendidikan, desain korelasional umumnya dikelompokkan berdasarkan tujuan penelitian. Berikut dua jenis utama yang paling sering diterapkan:
-### 1. Desain Eksplanatori
-Desain eksplanatori bertujuan menjelaskan sejauh mana dua variabel atau lebih saling berkaitan dalam satu waktu yang sama. Peneliti mengumpulkan seluruh data secara serentak, lalu menguji kekuatan hubungannya menggunakan rumus statistik yang sesuai.
-Contoh penerapannya adalah penelitian yang mengukur hubungan antara durasi belajar mandiri mingguan dengan nilai ujian akhir semester. Hasil analisis akan menunjukkan apakah peningkatan jam belajar sejalan dengan kenaikan nilai.
-### 2. Desain Prediktif
-Desain prediktif bertujuan memperkirakan luaran di masa depan berdasarkan variabel yang telah diukur lebih dulu. Variabel yang dijadikan dasar ramalan disebut prediktor, sedangkan luaran yang diestimasi disebut kriteria.
-Sebagai contoh, skor tes potensi akademik saat ujian masuk perguruan tinggi sering dipakai untuk memprediksi capaian indeks prestasi kumulatif mahasiswa di tahun pertama perkuliahan.
-## Cara Membaca Arah Korelasi
-[Gambar: ilustrasi tiga scatter plot berdampingan yang menunjukkan korelasi positif, negatif, dan tanpa korelasi]
-Contoh Pola Korelasi Positif, Negatif, dan Nol | Sumber: SAGE Publications
-Pola sebaran data antarvariabel paling mudah dianalisis secara visual menggunakan diagram pencar (*scatter plot*). Setiap titik pada grafik mewakili satu responden dengan pasangan nilai dari kedua variabel yang diukur.
-Secara garis besar, arah korelasi terbagi menjadi tiga kategori utama berikut:
-| Arah | Nilai Koefisien (r) | Makna Hubungan |
+| Contoh | Kategori | Yang ditunjukkan |
 |---|---|---|
-| Positif | Mendekati +1 | Saat satu variabel naik, variabel lainnya cenderung ikut naik |
-| Negatif | Mendekati −1 | Saat satu variabel naik, variabel lainnya justru cenderung turun |
-| Nol / Nihil | Mendekati 0 | Tidak ada keteraturan linear yang bermakna antarvariabel |
-## Ciri Khas Penelitian Korelasional
-Sebelum memutuskan memakai metode ini, pastikan desain penelitianmu sesuai dengan karakteristik dasarnya. Berikut beberapa ciri utama yang membedakannya dari metode lain:
-• Tidak ada manipulasi atau perlakuan khusus terhadap variabel yang diteliti
-• Pengambilan data dilakukan secara serentak dalam situasi alami
-• Hasil akhir berupa derajat kekuatan dan arah hubungan statistik
-• Tidak dapat membuktikan hubungan sebab-akibat secara mutlak
-## Kapan Penelitian Korelasional Tepat Digunakan?
-Penelitian korelasional paling tepat dipilih saat tujuan risetmu adalah memetakan tren atau membangun model prediksi awal. Metode ini sangat hemat waktu dan sumber daya dibandingkan penelitian eksperimental.
-Pendekatan ini juga menjadi solusi terbaik ketika variabel yang diteliti tidak etis untuk dimanipulasi, seperti latar belakang keluarga atau status ekonomi. Jika tujuan utamamu membuktikan efektivitas suatu obat atau intervensi, beralihlah ke metode eksperimen murni.
-**Referensi:**
-• [Correlational Research: Definition, Types & Examples](https://www.scribbr.com/methodology/correlational-research/) | Scribbr
-• Creswell, J. W. (2012). *Educational Research: Planning, Conducting, and Evaluating Quantitative and Qualitative Research* (4th ed.). Pearson.
+| A. Penelitian Korelasional | Edukasi | Pendahuluan definisi, H3 bernomor untuk jenis, tabel isi, gambar setelah paragraf pembuka |
+| B. *Chicken Skin* | YMYL (kesehatan kulit) | Status regulasi obat, klaim beratribusi, penanda `[Verifikasi]`, FAQ, Referensi, Catatan Editor |
+| C. Toko *Online* | Bisnis ringan | Pendahuluan hook (cluster), listicle bernomor, placeholder Baca Juga, tanpa sitasi akademis |
+
+Contoh A dan C adalah **cuplikan** yang lebih pendek dari target 1.000 kata. Contoh B mendekati artikel utuh. Yang ditiru adalah pola dan ritmenya, bukan panjangnya.
 
 ---
 
-## Contoh B: Topik Kesehatan / YMYL (Chicken Skin)
-
-Menunjukkan bagaimana topik medis/kesehatan ditulis dengan kalimat bernapas, paragraf terpecah secara logis (protokol vs sensasi), format list `• `, dan kehati-hatian klaim tanpa diagnosa.
+## Contoh A: Edukasi (Penelitian Korelasional)
 
 **Meta Information**
 
 | Element | Content |
 |---|---|
-| Title | Chicken Skin (Keratosis Pilaris): Ciri, Penyebab & Cara Mengatasinya |
-| Description | Kulit lengan atau paha berbintik kasar seperti kulit ayam? Kenali apa itu chicken skin, penyebab penumpukan keratin, dan cara merawatnya agar halus. |
+| Title | Penelitian Korelasional: Pengertian, Jenis, dan Contohnya |
+| Description | Penelitian korelasional mengukur hubungan antarvariabel tanpa memanipulasinya. Pahami jenis desainnya, cara membaca nilai r, dan contohnya. |
+| Slug | penelitian-korelasional |
+
+Penelitian korelasional adalah penelitian kuantitatif yang mengukur hubungan antara dua variabel atau lebih tanpa memanipulasi salah satunya. Peneliti hanya mencatat kondisi apa adanya, lalu menghitung seberapa kuat dan ke arah mana variabel-variabel itu bergerak bersama.
+
+Metode ini sering dipilih untuk skripsi karena tidak membutuhkan laboratorium atau kelompok kontrol. Kesalahan yang paling sering muncul justru terjadi saat membaca hasilnya, ketika angka korelasi yang tinggi dianggap bukti sebab-akibat.
+
+Dua keputusan menentukan kualitas penelitian semacam ini: desain mana yang cocok dengan pertanyaan penelitianmu, dan sejauh mana kesimpulan boleh ditarik dari angka korelasinya.
+
+## Ciri Utama Penelitian Korelasional
+
+Penelitian korelasional dikenali dari satu hal: peneliti tidak memberi perlakuan apa pun kepada subjek. Variabel diukur dalam kondisi alaminya, lalu hubungannya dianalisis dengan statistik. Ciri lain yang membedakannya dari metode eksperimen:
+
+- Tidak ada kelompok perlakuan atau kelompok kontrol
+- Data diambil dari kondisi alami subjek
+- Hasilnya berupa arah dan kekuatan hubungan
+- Tidak bisa membuktikan hubungan sebab-akibat
+
+## Dua Jenis Desain Korelasional
+
+Creswell membagi desain korelasional menjadi dua jenis menurut tujuannya, yaitu menjelaskan hubungan atau memprediksi hasil. Pilihan desain menentukan kapan data dikumpulkan dan bagaimana hasilnya ditafsirkan.
+
+### 1. Desain Eksplanatori
+
+Desain eksplanatori menjelaskan sejauh mana dua variabel atau lebih bergerak bersama pada satu waktu. Seluruh data dikumpulkan dalam satu periode, lalu kekuatan hubungannya diuji dengan statistik yang sesuai.
+
+Contohnya, penelitian yang mengukur hubungan antara jam belajar mandiri per minggu dan nilai ujian akhir semester. Hasilnya menunjukkan apakah mahasiswa yang belajar lebih lama cenderung mendapat nilai lebih tinggi.
+
+### 2. Desain Prediktif
+
+Desain prediktif memakai variabel yang diukur lebih dulu untuk memperkirakan hasil di kemudian hari. Variabel pertama disebut prediktor, sedangkan hasil yang diperkirakan disebut kriteria.
+
+Skor tes masuk perguruan tinggi, misalnya, bisa dipakai untuk memperkirakan indeks prestasi mahasiswa di tahun pertama. Karena prediktor diukur lebih dulu, data pada desain ini dikumpulkan dalam dua waktu yang berbeda.
+
+## Cara Membaca Arah dan Kekuatan Korelasi
+
+Hasil penelitian korelasional dibaca dari koefisien korelasi (r) yang bernilai antara −1 dan +1. Tanda plus atau minus menunjukkan arah hubungan, sedangkan jarak angkanya dari nol menunjukkan kekuatannya.
+
+[Gambar: tiga diagram pencar berdampingan yang menunjukkan korelasi positif, negatif, dan nol]
+
+Contoh Pola Korelasi Positif, Negatif, dan Nol
+
+Diagram pencar (*scatter plot*) membantu melihat pola ini sebelum menghitung angkanya. Setiap titik mewakili satu responden dengan pasangan nilai dari kedua variabel.
+
+| Arah | Nilai r | Artinya |
+|---|---|---|
+| Positif | Mendekati +1 | Saat satu variabel naik, variabel lain cenderung ikut naik |
+| Negatif | Mendekati −1 | Saat satu variabel naik, variabel lain cenderung turun |
+| Nol | Mendekati 0 | Tidak ada pola hubungan linear yang berarti |
+
+Batas antara korelasi "kuat" dan "lemah" berbeda antarbidang ilmu, jadi ikuti patokan yang dipakai jurnal di bidangmu. Korelasi yang kuat pun belum membuktikan bahwa satu variabel menyebabkan variabel lain berubah.
+
+## Kapan Metode Ini Tepat Dipakai
+
+Penelitian korelasional cocok saat tujuanmu memetakan hubungan atau menyusun model prediksi awal. Metode ini juga menjadi pilihan saat variabelnya tidak etis untuk dimanipulasi, seperti status ekonomi keluarga, dan biayanya lebih hemat dibandingkan eksperimen.
+
+Jika pertanyaan penelitianmu berbunyi "apakah X menyebabkan Y", misalnya menguji efektivitas metode mengajar baru, pilih desain eksperimen. Diskusikan pilihan desainnya dengan dosen pembimbing sebelum menyusun instrumen.
+
+**Referensi:**
+
+- Creswell, J. W. (2012). *Educational Research: Planning, Conducting, and Evaluating Quantitative and Qualitative Research* (4th ed.). Pearson.
+
+---
+
+## Contoh B: YMYL (*Chicken Skin*)
+
+**Meta Information**
+
+| Element | Content |
+|---|---|
+| Title | Chicken Skin (Keratosis Pilaris): Penyebab dan Perawatannya |
+| Description | Bintik kasar di lengan seperti kulit ayam disebut keratosis pilaris. Kenali penyebab, ciri, bahan perawatan yang membantu, dan kapan perlu ke dokter. |
 | Slug | chicken-skin |
-Kulit lengan atas atau paha dipenuhi bintik-bintik kecil dan terasa kasar saat diraba seperti permukaan kulit ayam yang dicabuti bulunya? Kondisi kulit seperti ini sangat umum terjadi dan dalam dunia medis dikenal dengan istilah keratosis pilaris.
-Kondisi ini terjadi akibat penumpukan protein keratin alami yang menyumbat pori-pori dan folikel rambut terluar. Tampilannya sering kali terlihat semakin jelas dan terasa lebih kasar ketika kulit sedang kering atau cuaca dingin.
-Meskipun sering mengganggu rasa percaya diri, keratosis pilaris sama sekali tidak berbahaya maupun menular. Simak ulasan lengkap mengenai penyebab, ciri-ciri, serta cara merawatnya agar kulit kembali halus berikut.
-## Penyebab *Chicken Skin*
-*Chicken skin* tidak disebabkan oleh kebersihan tubuh yang buruk atau jarang mandi. Pemicu utamanya adalah kelainan bawaan pada proses pelepasan sel kulit mati yang menyertai folikel rambut.
-Faktor genetik memegang peran terbesar dalam timbulnya kondisi ini. Jika salah satu orang tuamu memiliki kulit berbintik kasar, kemungkinan besar kamu juga memiliki kecenderungan kulit serupa.
-Selain garis keturunan, terdapat beberapa pemicu eksternal yang dapat mempertegas penampakan bintik-bintik tersebut pada kulit. Berikut beberapa faktor pendukungnya:
-• Kondisi kulit yang sangat kering atau kurang hidrasi
-• Udara dingin dan kelembapan lingkungan yang rendah
-• Gesekan pakaian ketat yang memicu iritasi folikel
-• Riwayat alergi kulit bawaan seperti dermatitis atopik
-## Ciri-ciri *Chicken Skin* yang Perlu Dikenali
-[Gambar: perbandingan berdampingan antara tekstur keratosis pilaris dan jerawat biasa]
-Perbandingan Chicken Skin dan Jerawat Biasa | Sumber: American Academy of Dermatology
-Bintik keratosis pilaris sering disalahartikan sebagai jerawat atau bruntusan biasa. Padahal, karakteristik fisiknya sangat khas dan berbeda dari peradangan jerawat aktif.
-Ciri utama yang paling mudah dirasakan adalah tekstur kulit yang menyerupai kertas amplas halus. Bintik-bintik ini tidak memiliki mata komedo tertutup ataupun cairan nanah di bagian tengahnya.
-Berikut tanda-tanda klinis yang membedakan kondisi ini dari masalah kulit lainnya:
-• Muncul bentol kecil padat berukuran 1 sampai 2 milimeter
-• Tersebar merata di lengan atas, paha depan, atau pipi
-• Warna bintik berkisar antara warna kulit asli, kemerahan, hingga kecokelatan
-• Jarang menimbulkan rasa gatal hebat atau nyeri menusuk
-## Perawatan untuk Menghaluskan Kulit
-Kunci utama merawat *chicken skin* adalah eksfoliasi lembut secara berkala dan menjaga kelembapan pelindung kulit (*skin barrier*). Hindari menggosok kulit secara kasar karena dapat memperparah iritasi.
-Gunakan sabun mandi berformula lembut tanpa busa berlebih agar minyak alami kulit tidak terkikis. Setelah mandi, segera oleskan pelembap pekat yang mengandung ceramide atau urea saat kulit masih agak lembap.
-Untuk membantu meluruhkan sumbatan keratin di pori-pori, kamu bisa menambahkan produk perawatan yang mengandung bahan aktif berikut:
-• Asam salisilat (*salicylic acid*) untuk membersihkan sumbatan folikel
-• Asam laktat (*lactic acid*) untuk melunakkan sel kulit mati sekaligus melembapkan
-• Urea dosis rendah untuk melembutkan tekstur kulit yang mengeras
-• Retinoid topikal untuk mempercepat regenerasi sel permukaan kulit
-## Kapan Harus ke Dokter?
-*Chicken skin* pada dasarnya tergolong kondisi kulit jinak yang tidak memerlukan penanganan medis darurat. Namun, konsultasi ke dokter spesialis dermatologi sangat dianjurkan jika timbul rasa gatal hebat, peradangan kemerahan yang meluas, atau meninggalkan bekas noda gelap yang membandel.
-Dokter dapat melakukan pemeriksaan langsung dan meresepkan krim keratolitik berdosis tepat atau menyarankan tindakan klinis pendukung. Langkah terarah ini akan membantu memulihkan kehalusan tekstur kulit tanpa memicu risiko iritasi lanjutan.
+
+*Chicken skin* atau keratosis pilaris adalah kondisi kulit berupa bintik kecil yang kasar, biasanya di lengan atas dan paha. Bintik ini muncul karena keratin menumpuk dan menyumbat lubang folikel rambut, sehingga permukaan kulit terasa seperti amplas halus.
+
+Kondisi ini tidak menular dan tidak berbahaya, tetapi sering membuat orang enggan memakai baju berlengan pendek. Keratosis pilaris belum bisa dihilangkan total, meski tampilannya bisa dibuat lebih halus dengan perawatan rutin.
+
+Dua pertanyaan yang paling sering muncul adalah bahan perawatan apa yang benar-benar membantu, dan kapan bintik ini perlu diperiksakan ke dokter kulit.
+
+## Penyebab *Chicken Skin* dan Pemicunya
+
+Penyebab utama *chicken skin* adalah penumpukan keratin, protein pelindung kulit, yang menyumbat lubang folikel rambut. Kondisi ini tidak berhubungan dengan kebersihan, jadi bukan akibat jarang mandi.
+
+Keratosis pilaris sering ditemukan pada beberapa anggota keluarga yang sama dan lebih umum pada orang dengan kulit kering atau eksim (dermatitis atopik). Tampilannya juga cenderung memburuk ketika:
+
+- Udara dingin dan kering, termasuk di ruangan ber-AC sepanjang hari
+- Kulit jarang diberi pelembap setelah mandi
+- Mandi air panas terlalu lama
+
+## Ciri-Ciri Keratosis Pilaris
+
+Ciri paling khas keratosis pilaris adalah bintik kecil dan keras yang terasa kasar saat diraba, tanpa nanah di bagian tengahnya. Warnanya bisa sewarna kulit, kemerahan, atau kecokelatan pada kulit sawo matang.
+
+[Gambar: foto close-up bintik keratosis pilaris di lengan atas, berdampingan dengan foto jerawat di punggung sebagai pembanding]
+
+Perbedaan Tampilan Keratosis Pilaris dan Jerawat
+
+Bintik paling sering muncul di lengan atas, paha, dan bokong, sedangkan pada anak-anak bisa muncul di pipi. Karena bentuknya mirip, keratosis pilaris kerap disangka jerawat. Perbedaan keduanya terlihat dari tiga hal:
+
+| Aspek | Keratosis Pilaris | Jerawat |
+|---|---|---|
+| Lokasi umum | Lengan atas, paha, bokong, pipi anak | Wajah, dada, punggung |
+| Isi bintik | Sumbatan keratin, tanpa nanah | Bisa berisi komedo atau nanah |
+| Rasa saat disentuh | Kasar seperti amplas, jarang nyeri | Bisa nyeri saat meradang |
+
+## Perawatan Mandiri untuk Menghaluskan Kulit
+
+Perawatan *chicken skin* bertumpu pada dua hal: melembapkan kulit setiap hari dan meluruhkan sumbatan keratin dengan lembut. American Academy of Dermatology (AAD) menyarankan untuk tidak menggosok kulit dengan *scrub* kasar karena gesekan bisa memperparah kemerahan.
+
+Kebiasaan mandi ikut menentukan hasilnya. Langkah yang dianjurkan AAD antara lain:
+
+- Mandi dengan air hangat dan batasi durasinya
+- Pakai sabun lembut tanpa pewangi
+- Keringkan kulit dengan menepuk handuk
+- Oleskan pelembap dalam beberapa menit setelah mandi
+
+Untuk meluruhkan sumbatan keratin, pilih produk bebas yang memakai bahan aktif lembut. Produk semacam ini biasanya mengandung salah satu dari tiga bahan berikut:
+
+- **Urea:** melunakkan keratin yang mengeras sekaligus menahan air di kulit.
+- **Asam laktat atau amonium laktat:** meluruhkan sel kulit mati perlahan dan ikut melembapkan.
+- **Asam salisilat:** membantu membuka sumbatan folikel, tetapi bisa membuat kulit kering atau perih bila dipakai berlebihan.
+
+Hasilnya tidak instan. Menurut AAD, perbaikan biasanya baru terlihat setelah beberapa minggu pemakaian rutin, dan bintik cenderung muncul lagi bila perawatan dihentikan.
+
+## Perawatan dari Dokter dan Status Obatnya
+
+Jika perawatan mandiri belum membantu, dokter kulit dapat meresepkan krim retinoid topikal, misalnya tretinoin. Di Indonesia, tretinoin termasuk obat keras sehingga hanya boleh didapat dengan resep dokter [Verifikasi: golongan obat tretinoin di PIONAS BPOM].
+
+BPOM juga melarang asam retinoat (tretinoin) sebagai bahan kosmetik [Verifikasi: peraturan BPOM tentang bahan yang dilarang dalam kosmetik]. Krim pencerah atau pelembap tanpa resep yang mengaku mengandung tretinoin patut dicurigai sebagai produk ilegal.
+
+Retinoid tidak dianjurkan untuk ibu hamil atau menyusui, jadi sampaikan kondisi ini kepada dokter sebelum menerima resep. Pada awal pemakaian, retinoid sering membuat kulit kering, kemerahan, dan perih, sehingga dokter biasanya mengatur frekuensi pemakaiannya.
+
+Untuk kemerahan yang menetap, dokter dapat mempertimbangkan terapi laser atau terapi cahaya. Pilihan ini biasanya baru dibahas setelah krim tidak memberi hasil yang cukup.
+
+**Baca Juga:** [isi: artikel tentang cara memilih pelembap untuk kulit kering]
+
+## Pertanyaan Seputar *Chicken Skin*
+
+### Apakah *Chicken Skin* Bisa Hilang Sendiri?
+
+Pada banyak orang, keratosis pilaris membaik seiring bertambahnya usia, meski waktunya berbeda-beda. Selama bintiknya masih ada, perawatan rutin membantu menjaga kulit tetap halus.
+
+### Apakah *Chicken Skin* Menular?
+
+Tidak. Keratosis pilaris berasal dari cara kulit membentuk keratin, bukan dari kuman, sehingga tidak menular lewat sentuhan atau pemakaian handuk bersama.
+
+### Bolehkah Bintiknya Dipencet atau Dikerok?
+
+Sebaiknya tidak. Memencet atau mengerok bintik bisa menimbulkan luka, kemerahan, dan noda gelap, terutama pada kulit sawo matang.
+
+## Tanda Kamu Perlu ke Dokter Kulit
+
+Keratosis pilaris jarang membutuhkan penanganan medis, tetapi pemeriksaan dokter dianjurkan bila kamu mengalami salah satu keadaan ini:
+
+- Bintik terasa gatal hebat, nyeri, atau menyebar ke area yang tidak biasa
+- Kulit meradang atau bernanah setelah perawatan
+- Muncul noda gelap yang mengganggu penampilan
+- Kamu ragu apakah bintik itu keratosis pilaris atau kondisi kulit lain
+
+Dokter dapat memastikan diagnosis lewat pemeriksaan langsung dan menyesuaikan obat dengan kondisi kulitmu. Bawa daftar produk yang sedang kamu pakai agar dokter bisa menilai bahan mana yang perlu dihentikan.
+
 **Referensi:**
-• [Keratosis Pilaris: Diagnosis and Treatment](https://www.aad.org/public/diseases/a-z/keratosis-pilaris-treatment) | American Academy of Dermatology
-• [Keratosis Pilaris](https://www.nhs.uk/conditions/keratosis-pilaris/) | NHS
+
+- [Keratosis pilaris: Diagnosis and treatment](https://www.aad.org/public/diseases/a-z/keratosis-pilaris-treatment) | American Academy of Dermatology
+- [Keratosis pilaris](https://www.nhs.uk/conditions/keratosis-pilaris/) | NHS
 
 ---
 
-## Contoh C: Topik Ringan & Bisnis Praktis (Meningkatkan Penjualan Toko Online)
+**Catatan Editor (tidak untuk dipublikasikan)**
 
-Menunjukkan bagaimana artikel gaya hidup atau bisnis praktis ditulis secara mengalir, taktis, santai, dan **tanpa dipaksakan sitasi jurnal ilmiah/medis**.
+- [Verifikasi: golongan obat tretinoin di PIONAS BPOM], lalu tambahkan sumbernya ke Referensi
+- [Verifikasi: peraturan BPOM yang memuat asam retinoat sebagai bahan dilarang dalam kosmetik], lalu tambahkan sumbernya ke Referensi
+- Cocokkan klaim "perbaikan terlihat setelah beberapa minggu" dan daftar kebiasaan mandi dengan halaman AAD
+- [isi: kutipan dokter kulit klinik tentang kesalahan perawatan yang paling sering ditemui pasien]
+- Isi tautan Baca Juga dengan artikel internal tentang pelembap untuk kulit kering
+- Cek ulang Title dan Description
+- Perlu ditinjau dokter kulit sebelum terbit
+
+---
+
+## Contoh C: Bisnis Ringan (Toko *Online*)
+
+Topik ringan dan praktis tidak memakai sitasi akademis, jadi bagian Referensi boleh dihilangkan.
 
 **Meta Information**
 
 | Element | Content |
 |---|---|
-| Title | Cara Meningkatkan Penjualan Toko Online untuk Pemula: 5 Tips Praktis |
-| Description | Toko online sepi pembeli meski sudah pasang produk? Simak 5 cara jitu meningkatkan penjualan di marketplace dan media sosial berikut ini. |
+| Title | 4 Cara Meningkatkan Penjualan Toko Online untuk Pemula |
+| Description | Toko online sepi pembeli padahal produk sudah diunggah? Perbaiki foto, deskripsi, promo, dan cara membalas chat agar pengunjung lebih cepat membeli. |
 | Slug | cara-meningkatkan-penjualan-toko-online |
-Sudah rajin mengunggah foto produk dan memasang deskripsi rapi, tetapi keranjang belanja di tokomu masih saja sepi dari transaksi pembeli? Situasi ini adalah tantangan yang hampir dialami oleh semua pemilik bisnis online di masa-masa awal.
-Persaingan di toko online memang menuntut kita untuk tampil lebih menonjol di mata calon pembeli. Pengunjung tidak bisa memegang produk secara fisik, sehingga keputusan membeli sangat bergantung pada kepercayaan visual dan pelayanan tokomu.
-Kabar baiknya, meningkatkan omzet toko online tidak selalu membutuhkan anggaran iklan yang besar. Simak lima strategi praktis berikut yang bisa langsung kamu terapkan untuk memikat lebih banyak pembeli.
-## Optimalkan Tampilan Visual dan Foto Produk
-Foto produk adalah etalase utama toko online yang pertama kali menentukan apakah calon pembeli tertarik untuk mengklik tokomu atau berpindah ke kompetitor. Foto yang gelap atau buram otomatis menurunkan kepercayaan pelanggan terhadap kualitas barang.
-Gunakan pencahayaan alami yang terang dan latar belakang foto yang bersih agar warna asli produk terlihat jelas. Sertakan pula foto dari berbagai sudut (*multiple angles*) serta video singkat yang memperlihatkan detail tekstur atau cara pemakaian barang.
-Berikut beberapa elemen visual wajib pada halaman produk tokomu:
-• Foto utama produk dengan latar belakang putih atau netral yang kontras
-• Foto saat produk dipakai atau digunakan langsung dalam kehidupan sehari-hari
-• Video singkat yang memperlihatkan fungsi nyata atau ukuran barang
-• Infografis ringkas yang memuat spesifikasi ukuran atau panduan memilih varian
-## Tulis Deskripsi Produk yang Menjawab Kebutuhan Pembeli
-Banyak penjual hanya mencantumkan ukuran dan bahan produk secara kaku tanpa menjelaskan manfaatnya bagi pembeli. Calon pelanggan ingin tahu bagaimana barang tersebut dapat memecahkan masalah atau mempermudah aktivitas harian mereka.
-Jelaskan keunggulan produkmu dengan gaya bahasa yang ramah dan to the point. Jika kamu menjual botol minum, jangan hanya menulis kapasitas 500 ml, tetapi jelaskan bahwa botol tersebut tahan dingin seharian dan anti tumpah saat dimasukkan ke dalam tas ransel.
-## Manfaatkan Fitur Promo dan Voucher Toko
-Diskon dan gratis ongkir masih menjadi dua faktor penentu terbesar bagi konsumen Indonesia saat berbelanja online. Pembeli cenderung lebih cepat menyelesaikan pembayaran ketika merasa mendapatkan penawaran spesial yang terbatas.
-Kamu bisa menawarkan voucer potongan harga dengan syarat minimal pembelian tertentu untuk menaikkan nilai rata-rata keranjang belanja (*average order value*). Misalnya, berikan potongan Rp10.000 untuk transaksi minimal Rp100.000 agar pembeli terdorong menambah barang ke keranjang.
-Berikut variasi promo yang efektif menarik perhatian pembeli:
-• Voucer khusus untuk pembeli yang baru pertama kali mengunjungi toko
-• Diskon bertingkat untuk pembelian barang dalam jumlah lebih dari satu
-• Paket bundling beberapa produk pelengkap dengan harga lebih hemat
-• Promo kilat (*flash sale*) dengan batas waktu tertentu untuk menciptakan urgensi
-## Bangun Kepercayaan Lewat Ulasan dan Respons Cepat
-Bagi pembeli baru yang belum pernah bertransaksi di tokomu, ulasan dan penilaian bintang dari pembeli sebelumnya adalah penentu rasa aman. Semakin banyak ulasan positif yang menyertakan foto dan video nyata, semakin tinggi peluang tokomu dipilih.
-Selain ulasan, kecepatan membalas pesan obrolan (*chat*) juga sangat menentukan konversi penjualan. Calon pembeli yang sedang membandingkan toko akan langsung beralih ke penjual lain jika pertanyaannya tidak dijawab dalam hitungan menit.
-## Langkah Awal Mengembangkan Tokomu
-Meningkatkan penjualan toko online adalah proses eksperimen yang konsisten. Kamu tidak perlu menerapkan semua perubahan sekaligus dalam satu malam; mulailah dengan memperbaiki foto utama produk terlarismu dan merapikan deskripsinya hari ini.
-Pantau respons pembeli dan tingkat kunjungan tokomu setiap minggu untuk melihat strategi mana yang paling efektif mendatangkan transaksi. Dengan produk berkualitas dan pelayanan yang ramah, pembeli baru akan dengan senang hati kembali berbelanja di tokomu.
+
+Toko sudah buka, foto produk sudah diunggah, tetapi pesanan masih jarang masuk. Pembeli *online* tidak bisa memegang barang, jadi keputusan mereka bergantung pada foto, deskripsi, harga yang terasa masuk akal, dan kecepatan penjual membalas pertanyaan.
+
+Hal-hal itu bisa dibenahi tanpa anggaran iklan. Mulailah dari produk terlaris, karena perbaikan kecil di halaman yang sudah ramai dikunjungi paling cepat terlihat dampaknya.
+
+## Empat Cara Menaikkan Penjualan Toko *Online*
+
+Penjualan toko *online* naik saat hal-hal yang dilihat pembeli sebelum *checkout* diperbaiki: foto, deskripsi, promo, dan respons *chat*. Urutannya disusun dari yang paling murah dikerjakan.
+
+[Gambar: tangkapan layar halaman produk marketplace dengan penanda pada foto utama, deskripsi, voucer, dan tombol chat]
+
+Empat Area Halaman Produk yang Memengaruhi Keputusan Membeli
+
+### 1. Perbaiki Foto Produk Utama
+
+Foto utama adalah hal pertama yang menentukan apakah calon pembeli mengklik produkmu atau pindah ke toko lain. Foto yang gelap atau buram membuat pembeli meragukan kualitas barang, sekalipun barangnya bagus.
+
+Gunakan cahaya alami dari jendela dan latar polos agar warna asli produk terlihat. Halaman produk yang meyakinkan biasanya memuat empat jenis visual:
+
+- Foto utama berlatar putih atau netral
+- Foto saat produk dipakai sehari-hari
+- Video singkat yang memperlihatkan ukuran dan fungsi
+- Gambar tabel ukuran atau panduan memilih varian
+
+### 2. Tulis Deskripsi yang Menjawab Pertanyaan Pembeli
+
+Deskripsi yang hanya berisi ukuran dan bahan memaksa pembeli bertanya lewat *chat*, dan sebagian memilih pergi. Tulis manfaat yang dirasakan pembeli lebih dulu, lalu taruh spesifikasi teknis di bawahnya.
+
+Penjual botol minum, misalnya, bisa menulis bahwa botolnya menjaga air tetap dingin selama perjalanan kerja dan tidak bocor di dalam ransel. Kapasitas 500 ml tetap dicantumkan sebagai pelengkap.
+
+### 3. Pasang Promo yang Menaikkan Nilai Keranjang
+
+Promo paling berguna bila tujuannya jelas, misalnya menaikkan jumlah barang per transaksi (*average order value*). Potongan Rp10.000 untuk belanja minimal Rp100.000 mendorong pembeli menambah satu barang lagi agar memenuhi syarat. Bentuk promo lain yang mudah diuji di toko kecil:
+
+- Voucer khusus pembeli pertama
+- Diskon bertingkat untuk pembelian lebih dari satu barang
+- Paket *bundling* produk yang saling melengkapi
+- Promo kilat (*flash sale*) selama dua jam pada jam ramai toko
+
+### 4. Balas *Chat* dalam Hitungan Menit
+
+Pembeli yang sedang membandingkan beberapa toko sering membeli dari penjual yang paling cepat menjawab. Pasang balasan otomatis untuk pertanyaan yang paling sering muncul, seperti stok, ukuran, dan estimasi pengiriman, lalu lanjutkan dengan jawaban manual.
+
+Ulasan pembeli juga ikut menentukan. Minta pembeli yang puas mengunggah ulasan berfoto, karena foto dari pembeli memperlihatkan barang dalam kondisi nyata.
+
+**Baca Juga:** [isi: artikel tentang cara menghitung harga jual produk]
+
+## Langkah Pertama Minggu Ini
+
+Keempat cara tidak perlu diterapkan sekaligus. Pilih tiga produk terlaris, ganti foto utamanya, rapikan deskripsinya, lalu catat jumlah kunjungan dan pesanan selama dua minggu.
+
+Bandingkan angkanya dengan dua minggu sebelumnya. Cara yang menaikkan pesanan bisa diterapkan ke produk lain, sedangkan cara yang tidak berdampak bisa diganti dengan cara berikutnya.
+
+---
+
+**Catatan Editor (tidak untuk dipublikasikan)**
+
+- Isi tautan Baca Juga dengan artikel internal tentang menghitung harga jual
+- [isi: contoh angka nyata dari toko klien, bila ada, untuk memperkuat bagian promo]

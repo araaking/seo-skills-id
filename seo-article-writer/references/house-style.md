@@ -1,235 +1,265 @@
 # House Style: Format Artikel
 
-Dokumen ini adalah format standar untuk seluruh artikel yang diproduksi menggunakan skill `article-draft-writer`. Berlaku untuk segala macam topik: gaya hidup, hobi, bisnis, teknologi, panduan praktis, edukasi umum, hingga topik sensitif (YMYL). Terapkan format ini kecuali pengguna meminta format khusus lainnya.
+Format standar untuk semua artikel yang ditulis dengan skill `seo-article-writer`. File ini menjadi **satu-satunya sumber** untuk angka, urutan, dan aturan bentuk artikel. Jika SKILL.md atau file lain menyebut angka berbeda, ikuti file ini.
 
-Lihat `contoh-artikel.md` untuk melihat implementasi nyata format ini pada berbagai kategori topik.
+Aturan di sini tidak bergantung pada channel. Cara menyajikannya di chat, Google Docs, .docx, atau teks polos diatur di [output-channels.md](output-channels.md). Semua contoh di file ini ditulis dalam Markdown (channel A).
+
+Lihat [contoh-artikel.md](contoh-artikel.md) untuk penerapan utuh pada tiga jenis topik.
 
 ---
 
-## 1. Document Order (Susunan Dokumen)
+## 1. Urutan Dokumen
 
-1. Tabel **Meta Information**
-2. Pendahuluan (tanpa H1 di badan teks; Title meta berfungsi sebagai judul utama halaman)
-3. Bagian H2 (dapat disertai sub-bab bernomor H3 bila diperlukan)
-4. Bagian FAQ (jika ada pertanyaan lanjutan yang sering dicari pengguna)
-5. Bagian Penutup / Rekomendasi Solutif
-6. **Referensi**
-7. **Catatan Editor** (hanya jika ada placeholder atau hal yang perlu diverifikasi editor manusia; tidak untuk dipublikasikan)
+1. **Meta Information** (label tebal + tabel)
+2. Pendahuluan (tanpa H1 di badan artikel)
+3. Bagian H2, dengan H3 bila perlu
+4. Bagian FAQ (bila ada pertanyaan nyata yang relevan)
+5. Bagian penutup berisi langkah lanjut
+6. **Referensi** (wajib untuk YMYL dan artikel edukasi berbasis sumber, opsional untuk topik ringan)
+7. **Catatan Editor** (wajib untuk YMYL atau bila ada penanda/placeholder yang tersisa; lihat bagian 14)
 
 ---
 
 ## 2. Meta Information
 
-Awali output artikel dengan label bold dan tabel 2 kolom:
+Label tebal `Meta Information`, lalu tabel asli 2 kolom:
 
 ```markdown
 **Meta Information**
 
 | Element | Content |
 |---|---|
-| Title | Penelitian Korelasional: Pengertian, Jenis, Langkah & Contohnya |
-| Description | Penelitian korelasional mengukur hubungan antarvariabel tanpa memanipulasinya. Pelajari jenis, langkah, dan contoh penerapannya di sini. |
+| Title | Penelitian Korelasional: Pengertian, Jenis, dan Contohnya |
+| Description | Penelitian korelasional mengukur hubungan antarvariabel tanpa memanipulasinya. Pahami jenis desainnya, cara membaca nilai r, dan contohnya. |
 | Slug | penelitian-korelasional |
+
+Paragraf pendahuluan pertama dimulai di sini.
 ```
 
-- **Title:** sekitar 60–75 karakter. Tempatkan kata kunci utama di depan atau di posisi menonjol, diikuti subtopik utama.
-- **Description:** sekitar 140–160 karakter. Mengandung kata kunci utama, menjelaskan manfaat artikel bagi pembaca secara mengalir (bukan sekadar daftar kata kunci).
-- **Slug:** huruf kecil, dipisahkan tanda hubung (-), ringkas.
+- **Title: 45–60 karakter.** Keyword utama di depan atau di posisi menonjol, diikuti subtopik utama. Title sekaligus menjadi judul artikel (H1 di CMS) dan nama file dokumen.
+- **Description: 130–155 karakter.** Memuat keyword utama dan manfaat bagi pembaca dalam kalimat yang mengalir, ditutup ajakan halus. Hindari "Simak…" dan "…di sini" yang klise.
+- **Slug:** huruf kecil, dipisah tanda hubung, ringkas, mengikuti keyword utama.
+- Batas karakter ini sama dengan skill `seo-meta-generator`. Hitung panjangnya dengan kode bila bisa (misalnya `len()` di Python), jangan ditaksir.
+- Jika outline memberi judul H1 yang lebih panjang dari 60 karakter, tambahkan baris `H1` di bawah Title berisi judul lengkapnya.
+- Isi sel meta berupa teks polos: tanpa italic dan tanpa simbol Markdown.
+- Tabel ini wajib tabel asli. Jangan menulisnya sebagai baris "Title - …".
 
 ---
 
 ## 3. Pendahuluan
 
-Panjang pendahuluan sekitar 2–3 paragraf ringkas (total 60–90 kata):
-- Buka langsung dengan situasi nyata, keresahan, atau pertanyaan konkret yang dihadapi pembaca.
-- Hindari basa-basi klise seperti "Di era modern saat ini", "Seiring perkembangan zaman", atau "Pernahkah Anda membayangkan...".
-- Sebutkan topik utama dan jelaskan mengapa hal tersebut penting dipahami.
-- Tutup pendahuluan dengan satu kalimat pengantar yang mengarahkan pembaca ke ulasan lengkap di bawahnya.
-- **Tanpa gambar di bagian pendahuluan.**
+Panjangnya 2–3 paragraf, sekitar 70–100 kata total. Tidak ada gambar di pendahuluan.
+
+- **Keyword definisi** ("X adalah", "apa itu X", slug `x-adalah`) atau artikel **pillar/mandiri**: jawab langsung di 1–2 kalimat pertama. Contoh: "Infus whitening adalah pemberian vitamin C, glutathione, dan zat lain lewat infus dengan tujuan mencerahkan kulit." Hook boleh menyusul di kalimat berikutnya.
+- **Artikel cluster** (definisinya sudah dibahas di artikel lain): buka langsung dengan hook berupa situasi nyata, keresahan, atau pertanyaan konkret pembaca.
+- Sebut topik utama dan alasan pembaca perlu memahaminya.
+- **Tutup pendahuluan dengan satu kalimat yang menyebut pertanyaan atau keputusan utama pembaca**, bukan pengumuman isi artikel. Contoh: "Sebelum memutuskan, ada tiga hal yang perlu dicek: status izin produknya, bukti manfaatnya, dan risikonya."
+- **Dilarang** memakai "Artikel ini membahas/membedah/mengulas…", "Simak ulasan lengkapnya…", "Yuk, cari tahu…", "berikut", atau mengulang daftar H2.
+- Hindari pembuka klise seperti "Di era modern saat ini" dan "Pernahkah kamu membayangkan…".
 
 ---
 
-## 4. Struktur Heading (H2 dan H3)
+## 4. Heading
 
-- **H2** untuk topik bahasan utama, **H3** untuk sub-item atau rincian turunan. Hindari H4 kecuali mutlak diperlukan.
-- Tulis judul dalam *Title Case* bahasa Indonesia: kapitalisasi huruf pertama setiap kata utama; kata tugas/hubung tetap huruf kecil kecuali di awal kalimat (di, ke, dari, dan, atau, yang, untuk, pada, dengan, secara, agar, sebagai).
-- Jika sebuah H2 berisi serangkaian item paralel (jenis, penyebab, langkah, tips, pertanyaan FAQ), beri nomor pada H3: `### 1. Desain Eksplanatori`.
-- Istilah asing tetap dicetak miring (*italic*) di dalam judul: `## Cara Membaca *Scatter Plot*`.
-
----
-
-## 5. Paragraf Bernapas & Aturan Spasi (Paragraph Rhythm)
-
-Hindari membuat paragraf satu kalimat terisolasi (*choppy*), dan dilarang keras menumpuk banyak kalimat majemuk menjadi balok teks padat (*wall of text*).
-
-### Aturan Panjang Kalimat dan Paragraf
-- **Kalimat ringkas dan bernapas (10–20 kata per kalimat):** Gunakan kalimat aktif yang to the point. Hindari menumpuk anak kalimat dengan banyak koma ("...yang mana..., dan..., sedangkan..., sehingga...").
-- **Panjang paragraf ideal (2–3 kalimat ringkas, sekitar 30–50 kata):**
-  - Setiap paragraf harus berisi **minimal 2 kalimat** (gagasan pokok + kalimat penjelas, mekanisme, atau dampaknya).
-  - Paragraf maksimal 3–4 kalimat ringkas.
-- **Aturan Pemecahan Paragraf (Split on Idea Shift):**
-  - **Begitu fokus pembicaraan atau subtopik bergeser sedikit saja, SEGERA ENTER (PISAH PARAGRAF BARU)!**
-  - Jangan memaksakan dua ide berbeda masuk ke satu paragraf hanya demi memenuhi syarat minimal kalimat.
-
-#### Contoh Kasus Nyata Pemecahan Paragraf:
-
-**Kasus A: Sesi Protokol vs Sensasi Tindakan**
-*SALAH (terlalu padat, kalimat beranak-cucu, 2 ide berbeda disatukan):*
-```text
-Katalog protokol produsen menulis 6 sesi dengan jarak 7 hari untuk indikasi Slimming, dan halaman distributor menganjurkan rangkaian minimal 6 sesi dengan jeda 7 hari untuk hasil optimal. Sensasi yang umum dilaporkan pada mesoterapi adalah nyeri, kemerahan, dan bengkak ringan yang mereda dalam hitungan hari, sedangkan kapan hasil terlihat tidak ada angka pastinya karena dokter menilai dari sesi ke sesi.
-```
-*BENAR (dipecah menjadi 2 paragraf bernapas, masing-masing 2 kalimat ringkas):*
-```text
-Katalog produsen menganjurkan rangkaian minimal 6 sesi dengan jeda 7 hari untuk mendapatkan hasil optimal. Dokter biasanya akan mengevaluasi respons tubuh secara berkala dari sesi ke sesi.
-Sensasi yang umum dilaporkan selama tindakan adalah nyeri ringan, kemerahan, atau sedikit bengkak di area suntikan. Reaksi ini tergolong wajar dan umumnya mereda sendiri dalam hitungan beberapa hari.
-```
-
-**Kasus B: Klaim Produsen vs Metabolisme Alami**
-*SALAH (klaim pabrik dan ulasan fisiologi bertumpuk menjadi satu balok teks tebal):*
-```text
-Menurut klaim produsen, bahan aktif bekerja sinergis menginduksi lipolisis dan mengubah asam lemak bebas menjadi energi sehingga timbunan lemak menyusut. Secara fisiologi, carnitine memang berperan mengangkut asam lemak rantai panjang ke mitokondria untuk dioksidasi menjadi energi menurut NIH, tetapi kaitan mekanisme umum ini dengan hasil klinis produk spesifik belum dibuktikan studi independen.
-```
-*BENAR (dipecah menjadi 2 paragraf yang berimbang):*
-```text
-Klaim produsen menyebutkan bahwa kombinasi bahan aktif ini bekerja menginduksi pemecahan lemak. Lemak yang terurai kemudian diubah menjadi asam lemak bebas yang siap diproses oleh metabolisme tubuh.
-Secara alami, carnitine memang berfungsi mengangkut asam lemak ke dalam sel untuk diolah menjadi energi. Namun, efektivitas formula injeksi ini tetap dipengaruhi oleh pola makan dan gaya hidup harian.
-```
-
-### Aturan Ketat: HANYA ENTER SEKALI (Single Line Break / `\n`)
-- **Di seluruh dokumen artikel, HANYA gunakan enter sekali (`\n`).**
-- Tepat di atas dan di bawah judul (H2/H3): enter **sekali**.
-- Antar-paragraf isi maupun pendahuluan: enter **sekali** (tanpa baris kosong).
-- Antara teks, instruksi gambar, dan caption: enter **sekali**.
-- Antara tabel meta dan paragraf pendahuluan: enter **sekali**.
-- **DILARANG KERAS menggunakan double enter / baris kosong (`\n\n`) di mana pun.**
-- *Alasan teknis:* Di Google Docs dan Microsoft Word, setiap pergantian paragraf otomatis diberi spasi bawah (*spacing after* 10pt). Jika AI menyisipkan baris kosong (`\n\n`), Docs/Word akan merendernya sebagai paragraf kosong terpisah yang menghasilkan jarak spasi renggang raksasa.
+- **Struktur dan teks heading mengikuti outline** bila ada. House style hanya mengatur kapitalisasi, italic, dan penomoran.
+- **H2** untuk topik utama dan **H3** untuk rincian turunan. H4 hanya dipakai bila outline memakainya. Jangan loncat level.
+- **Tidak ada H1 di badan artikel.** Judul tinggal di Title atau baris H1 tabel meta.
+- **H2 sebagian besar berupa pernyataan informatif**, misalnya "Penyebab *Chicken Skin* dan Pemicunya". Maksimal satu H2 berbentuk pertanyaan di luar FAQ, biasanya H2 definisi ("Apa Itu…?").
+- **Penomoran H3** (`### 1. Desain Eksplanatori`) hanya untuk item paralel yang jumlahnya disebut di judul atau heading ("4 Cara…", "Dua Jenis…"), atau untuk langkah yang urutannya penting. Nomor ini bagian dari teks heading, bukan penomoran otomatis dokumen. H3 pertanyaan di FAQ tidak diberi nomor.
+- **Title Case bahasa Indonesia:** huruf pertama setiap kata utama kapital. Kata tugas tetap kecil kecuali di awal: di, ke, dari, dan, atau, yang, untuk, pada, dengan, secara, agar, sebagai. Kata ulang dikapitalkan dua-duanya ("Ciri-Ciri").
+- Istilah asing tetap miring di dalam heading: `## Cara Membaca *Scatter Plot*`.
 
 ---
 
-## 6. Format Daftar (List) & Kompatibilitas Google Docs
+## 5. Paragraf dan Ritme
 
-Untuk daftar poin tak bernomor (*bulleted list*), **wajib menggunakan simbol bullet bulat unicode `• `**, BUKAN tanda strip/minus `- `.
+Tujuannya teks yang enak dibaca: bukan balok teks padat, tapi juga bukan deretan paragraf satu kalimat. Angka di bawah adalah **patokan, bukan kuota**. Ritme yang terlalu seragam (setiap paragraf dua kalimat, setiap H3 satu paragraf) justru menjadi ciri tulisan AI.
 
-*Alasan Teknis:*
-Saat teks disalin (*copy-paste*) ke Google Docs atau Word, tanda minus `- ` sering kali tetap tertinggal sebagai teks mentah berupa tanda strip dan tidak otomatis menjadi bullet point visual. Dengan menuliskan simbol `• `, naskah langsung tampil rapi sebagai bullet points di aplikasi mana pun.
+- **Kalimat:** sebagian besar nyaman di 10–20 kata. Variasikan: jawaban pendek ("Tidak." atau "Hasilnya sementara.") dan sesekali kalimat 25 kata yang mengalir membuat teks terdengar manusiawi. Kalimat majemuk bertingkat dengan banyak koma ("…yang mana…, dan…, sedangkan…, sehingga…") dipecah menjadi dua kalimat.
+- **Paragraf:** umumnya 2–4 kalimat (sekitar 30–60 kata). Paragraf satu kalimat boleh untuk jawaban langsung atau penekanan. Yang dihindari adalah beberapa paragraf satu kalimat berturut-turut.
+- **Pisah paragraf saat ide bergeser.** Begitu subjek atau sudut pandang berganti, mulai paragraf baru. Jangan menyatukan dua ide demi memenuhi jumlah kalimat.
+- **Gabungkan bila terlalu tipis.** Jika beberapa H3 masing-masing hanya berisi 1–2 kalimat, sajikan sebagai list atau tabel di bawah H2.
 
-Format penulisan list:
-- Awali list dengan satu kalimat pengantar pendek berakhiran tanda titik dua (`:`).
-- Tiap butir list diawali dengan `• ` diikuti satu spasi.
-- Poin list ditulis ringkas (sekitar 3–10 kata), diawali huruf kapital, dan tanpa titik di akhir jika bukan kalimat lengkap.
+### Contoh Pemecahan Paragraf
 
-Contoh penulisan yang **BENAR**:
-```text
-Berikut beberapa kriteria umum yang perlu diperhatikan:
-• Ditangani langsung oleh dokter atau praktisi bersertifikat
-• Minimal 6 sesi perawatan dengan jeda 7 hari
-• Sensasi nyeri ringan dan kemerahan sementara di area tindakan
-• Perawatan pendukung di rumah selama 2 sampai 3 bulan
-```
+**Kasus A: Jadwal sesi vs sensasi tindakan**
 
-Contoh penulisan yang **SALAH** (menggunakan tanda minus):
-```text
-- Ditangani dokter atau praktisi terlatih
-- Minimal 6 sesi dengan jeda 7 hari
-- Sensasi nyeri ringan dan kemerahan
-```
+SALAH (dua ide disatukan, kalimat beranak-cucu):
 
----
+> Katalog protokol produsen menulis 6 sesi dengan jarak 7 hari untuk indikasi Slimming, dan halaman distributor menganjurkan rangkaian minimal 6 sesi dengan jeda 7 hari untuk hasil optimal. Sensasi yang umum dilaporkan pada mesoterapi adalah nyeri, kemerahan, dan bengkak ringan yang mereda dalam hitungan hari, sedangkan kapan hasil terlihat tidak ada angka pastinya karena dokter menilai dari sesi ke sesi.
 
-## 7. Tipografi dan Gaya Bahasa
+BENAR (dua paragraf, atribusi dan kalibrasinya tetap ada):
 
-- **Cetak miring (*italic*) istilah asing:** Miringkan kata asing non-baku setiap kali muncul, termasuk di dalam judul (*scatter plot*, *sampling*, *skincare*, *outfit*, *marketplace*).
-- Jangan miringkan nama orang, nama merek/brand dagang, singkatan umum (SPSS, SEO, BPOM, SPF), atau kata serapan baku (variabel, korelasi, data, dokter).
-- Gunakan sudut pandang "kamu" dan "-mu" secara ramah dan konsisten untuk artikel populer, atau gaya netral-profesional untuk artikel ilmiah/bisnis.
-- **Anti-Meta-Writing:** Jangan pernah menulis kalimat proses penulisan seperti "Dalam artikel ini akan dijelaskan..." atau "Pada sub-bab ini kita akan melihat...". Tulis langsung substansinya.
+> Katalog produsen menganjurkan rangkaian minimal 6 sesi dengan jeda 7 hari. Dokter menilai respons kulit dari sesi ke sesi, jadi belum ada angka pasti kapan hasilnya mulai terlihat.
+>
+> Sensasi yang umum dilaporkan selama tindakan adalah nyeri ringan, kemerahan, atau bengkak di area suntikan. Menurut katalog yang sama, keluhan ini biasanya mereda dalam beberapa hari.
+
+**Kasus B: Klaim produsen vs fungsi zat di tubuh**
+
+SALAH (klaim produsen dan fisiologi ditumpuk menjadi satu balok):
+
+> Menurut klaim produsen, bahan aktif bekerja sinergis menginduksi lipolisis dan mengubah asam lemak bebas menjadi energi sehingga timbunan lemak menyusut. Secara fisiologi, carnitine memang berperan mengangkut asam lemak rantai panjang ke mitokondria untuk dioksidasi menjadi energi menurut NIH, tetapi kaitan mekanisme umum ini dengan hasil klinis produk spesifik belum dibuktikan studi independen.
+
+BENAR (dua paragraf, klaim produsen tetap diatribusikan dan status buktinya tetap disebut):
+
+> Produsen mengklaim kombinasi bahan aktifnya memecah timbunan lemak menjadi asam lemak bebas yang kemudian dibakar menjadi energi. Klaim ini berasal dari materi promosi produsen.
+>
+> Menurut NIH, carnitine memang mengangkut asam lemak rantai panjang ke mitokondria untuk diolah menjadi energi. Namun, kaitan fungsi umum ini dengan hasil suntikan produk tersebut belum dibuktikan uji klinis independen.
 
 ---
 
-## 8. Gambar dan Caption
+## 6. List
 
-- Cantumkan saran gambar pada bagian yang relevan (diagram alur, grafik perbandingan, contoh visual). Biasanya 3–5 gambar untuk artikel 1.000–1.500 kata.
-- Format penulisan: tepat di bawah judul H2/H3, enter sekali:
+- **List adalah list asli.** Di Markdown pakai `- ` (atau `1. ` untuk langkah berurutan). Di Docs/Word gunakan format list dokumen. **Jangan mengetik `•`** kecuali di channel teks polos (lihat output-channels.md).
+- **Kalimat pengantar list** sebaiknya menjadi kalimat terakhir paragraf sebelumnya dan diakhiri titik dua, bukan paragraf satu kalimat tersendiri.
+- **"Berikut" maksimal sekali per artikel.** "Berikut adalah…" dan "Berikut ini merupakan…" selalu dilarang. Variasikan, misalnya "Tampilannya cenderung memburuk ketika:" atau "Halaman produk yang meyakinkan biasanya memuat empat jenis visual:".
+- **Dua bentuk butir yang sah:**
+  1. **Butir ringkas** (3–10 kata), diawali huruf kapital, tanpa titik di akhir.
+  2. **Label tebal + penjelasan** 1–2 kalimat, diakhiri titik, dipakai bila tiap butir perlu alasan atau sumber. Contoh: `- **Paparan sinar UV:** memicu melanosit membentuk melanin lagi.`
+- Jangan mencampur dua bentuk dalam satu list. Sebuah list minimal berisi 2 butir.
+- Jumlah butir mengikuti fakta, bukan ritme tiga serangkai.
+
+Contoh benar:
+
 ```markdown
-[Gambar: ilustrasi diagram alur langkah penelitian dari perumusan masalah hingga analisis data]
-Alur Langkah Penelitian Korelasional | Sumber: SAGE Publications
+Tampilannya cenderung memburuk ketika:
+
+- Udara dingin dan kering
+- Kulit jarang diberi pelembap setelah mandi
+- Mandi air panas terlalu lama
 ```
-- Baris pertama: `[Gambar: deskripsi visual instruksi untuk tim grafis]`.
-- Baris kedua: `Deskripsi Singkat Gambar | Sumber: Nama Situs`.
-- Jika gambar dibuat sendiri oleh tim internal, hilangkan bagian sumber: `Alur Langkah Penelitian Korelasional`.
 
 ---
 
-## 9. Internal Links & Baca Juga
+## 7. Tabel di Badan Artikel
 
-- **Inline links:** Tautkan istilah penting pertama kali ke artikel terkait jika ada URL yang valid.
-- **Baca Juga:** Sisipkan 1–2 kali di akhir section H2 sebelum H2 berikutnya:
+- Pakai tabel untuk perbandingan dua opsi atau lebih, atau data dengan beberapa atribut (minimal 3 baris).
+- Selalu ada paragraf sebelum tabel yang menjawab inti bagian tersebut. Tabel melengkapi teks, bukan menggantikannya.
+- Baris pertama adalah header. Isi sel ringkas.
+- Tabel wajib tabel asli di semua channel kecuali teks polos.
+
+---
+
+## 8. Tipografi dan Gaya Bahasa
+
+- **Istilah asing dicetak miring** di badan artikel dan heading setiap kali muncul (*scatter plot*, *skincare*, *online*, *marketplace*, *bundling*). Sel tabel meta tidak diberi italic.
+- Jangan memiringkan nama orang, merek, singkatan umum (SPSS, SEO, BPOM, SPF), atau kata serapan baku (variabel, korelasi, data, dokter, video).
+- Untuk artikel populer, pakai sudut pandang "kamu/-mu" secara konsisten (jangan berganti ke "kita" atau "Anda"). Untuk artikel bisnis formal atau ilmiah, pakai gaya netral-profesional.
+- **Tanpa meta-writing:** jangan menulis "Dalam artikel ini…", "Pada bagian ini kita akan…", atau "Artikel ini membedah…". Langsung tulis substansinya.
+- Batasi em dash (`—`): maksimal satu per paragraf dan tidak dipakai di heading. Ganti dengan titik, koma, atau tanda kurung.
+
+---
+
+## 9. Gambar dan Caption
+
+- Saran gambar ditaruh **setelah paragraf pembuka sebuah bagian**, tidak pernah tepat di bawah heading. Paragraf pertama setelah heading selalu berisi jawaban langsung.
+- Format, dengan masing-masing sebagai paragraf terpisah:
+
+```markdown
+[Gambar: ilustrasi tiga scatter plot berdampingan untuk korelasi positif, negatif, dan nol]
+
+Contoh Pola Korelasi Positif, Negatif, dan Nol | Sumber: Nama Situs
+```
+
+- Baris pertama berisi instruksi visual untuk tim grafis. Baris kedua berisi caption plus sumber. Jika gambar dibuat tim internal, hapus bagian sumbernya.
+- Untuk artikel 1.000–1.500 kata, biasanya 3–5 gambar. Jangan menyebut sumber gambar yang tidak pernah dibuka.
+
+---
+
+## 10. Internal Link dan Baca Juga
+
+- **Link inline:** tautkan istilah penting saat pertama kali muncul, hanya ke URL yang benar-benar diberikan user atau ditemukan di situsnya.
+- **Baca Juga:** 1–2 kali per artikel, di akhir sebuah bagian H2:
+
 ```markdown
 **Baca Juga:** [Judul Asli Artikel Terkait](https://contoh.com/artikel)
 ```
-- Gunakan placeholder `**Baca Juga:** [isi: artikel tentang topik X]` jika URL belum tersedia, dan catat di **Catatan Editor**.
+
+- Jika URL belum ada, tulis `**Baca Juga:** [isi: artikel tentang topik X]` dan catat di Catatan Editor.
 
 ---
 
-## 10. FAQ (Frequently Asked Questions)
+## 11. FAQ
 
-- H2: `FAQ Seputar <Topik>`
-- Pertanyaan sebagai numbered H3 (`### 1. Apakah Tindakan Ini Menimbulkan Efek Samping?`).
-- Jawaban berupa satu paragraf padu (2–3 kalimat ringkas, sekitar 30–50 kata), langsung menjawab inti pertanyaan di kalimat pertama.
-
----
-
-## 11. Bagian Penutup (Next Steps)
-
-- H2 penutup bukan sekadar rangkuman ulang ("Kesimpulan"), melainkan memberikan langkah nyata bagi pembaca:
-  - Topik kesehatan/medis: `Kapan Harus ke Dokter?`
-  - Topik bisnis/tools: `Langkah Awal Memulai di Bisnismu`
-  - Topik konsep/metodologi: `Kapan Metode Ini Paling Tepat Digunakan?`
+- H2 memakai heading FAQ dari outline. Jika tidak ada, pakai `Pertanyaan Seputar <Topik Spesifik>`, bukan sekadar label "FAQ".
+- Setiap pertanyaan menjadi H3 tanpa nomor, diambil dari pertanyaan nyata (People Also Ask atau outline), bukan karangan.
+- Kalimat pertama jawaban langsung menjawab pertanyaannya. Panjang jawaban 2–3 kalimat (sekitar 30–50 kata), dan boleh dibuka dengan "Ya." atau "Tidak."
 
 ---
 
-## 12. Referensi
+## 12. Bagian Penutup
 
-Tutup naskah dengan label bold `**Referensi:**` dan daftar sumber dengan simbol bullet `• `:
+H2 penutup berisi langkah nyata berikutnya bagi pembaca, bukan rangkuman ulang berjudul "Kesimpulan". Pakai heading pernyataan:
+
+- Kesehatan: "Tanda Kamu Perlu ke Dokter Kulit" atau "Konsultasi Dokter sebelum Memutuskan Tindakan"
+- Bisnis/tools: "Langkah Pertama Minggu Ini"
+- Konsep/metodologi: "Kapan Metode Ini Tepat Dipakai"
+
+Tanpa salam penutup ("Semoga bermanfaat!") dan tanpa janji hasil.
+
+---
+
+## 13. Referensi
 
 ```markdown
 **Referensi:**
 
-• [Judul Asli Halaman](https://contoh.com/halaman) | Nama Situs
-• Nama Penulis, Inisial. (Tahun). *Judul Buku/Jurnal*. Nama Penerbit.
+- [Judul Asli Halaman](https://contoh.com/halaman) | Nama Situs
+- Nama Penulis, Inisial. (Tahun). *Judul Buku*. Nama Penerbit.
 ```
 
-- Masukkan hanya rujukan yang benar-benar digunakan. Jangan membuat referensi palsu atau dekoratif.
+- Masukkan hanya sumber yang benar-benar dibuka dan dipakai saat menulis. Judul ditulis sesuai judul asli halaman.
+- Jangan membuat referensi palsu, dekoratif, atau hasil tebakan URL.
+- Untuk YMYL, setiap klaim efektivitas, keamanan, dosis, atau status regulasi harus bisa ditelusuri ke salah satu entri Referensi (lihat [ymyl-claim-gate.md](ymyl-claim-gate.md)).
 
 ---
 
-## 13. Penyesuaian Nada & Gaya Penulisan (Topic Calibration)
+## 14. Catatan Editor
 
-Jangan samakan semua artikel! Sesuaikan dengan 4 tingkatan topik:
+Bagian paling bawah, dipisah garis, **tidak untuk dipublikasikan**.
 
-1. **Topik Ringan & Gaya Hidup (Lifestyle, Hobi, Wisata, Tips Rumah, Outfit):**
-   - Nada santai, ramah, mengalir, praktis.
-   - **TIDAK PERLU** riset akademis/jurnal berat, kutipan NIH, atau istilah klinis kaku.
-2. **Topik Bisnis, Karier & Pemasaran:**
-   - Nada profesional, lugas, berbasis praktik industri nyata dan framework teruji.
-3. **Topik Edukasi & Konseptual Umum:**
-   - Nada informatif, terstruktur, memakai perumpamaan sederhana.
-4. **Topik Sensitif / YMYL (Kesehatan Medis, Keuangan Berat, Legal):**
-   - Nada otoritatif, berhati-hati, verifikasi sumber resmi (Kemenkes, BPOM, OJK), tanpa diagnosa atau klaim muluk.
+**Wajib** dibuat bila:
+
+- Topiknya YMYL (kesehatan, obat, tindakan klinik, keuangan, hukum)
+- Ada placeholder `[isi: …]`, `[Verifikasi: …]`, atau `[Pengalaman: …]` yang belum terisi
+- Outline memberi penanda **[Review medis]**
+
+Isinya, dalam bentuk list:
+
+- Klaim atau data yang belum terverifikasi beserta jenis sumber yang perlu dicari
+- Status regulasi yang ditemukan (YMYL)
+- Placeholder yang harus diisi (harga, tautan internal, pengalaman, atau kutipan praktisi)
+- Untuk YMYL: "Perlu ditinjau dokter/apoteker sebelum terbit" dan "Cek ulang Title dan Description"
+
+```markdown
+---
+
+**Catatan Editor (tidak untuk dipublikasikan)**
+
+- [Verifikasi: golongan obat adapalen di PIONAS BPOM]
+- Perlu ditinjau dokter kulit sebelum terbit
+```
 
 ---
 
-## 14. Word Document (.docx) Settings
+## 15. Panjang Artikel
+
+- Default **minimal 1.000 kata substansi**. Tabel meta, instruksi gambar, Referensi, dan Catatan Editor tidak dihitung. Ikuti target dari user atau outline bila ada.
+- Pada topik YMYL, target kata **tidak boleh** dipenuhi dengan klaim tambahan yang tidak bersumber. Lebih baik artikel lebih pendek daripada berisi pengisi yang menyesatkan.
+
+---
+
+## 16. Spesifikasi Tampilan (Google Docs dan .docx)
+
+Berlaku untuk channel Google Docs dan .docx. Cara menerapkannya ada di output-channels.md.
 
 | Elemen | Pengaturan |
 |---|---|
-| Font Badan Teks | Arial, 11 pt |
-| Line Spacing | 1.15 (Multiple) |
-| Paragraph Spacing | 10 pt after (tanpa baris kosong tambahan) |
-| Alignment | Justified (Rata Kiri-Kanan) |
-| H2 | Heading 2 style, Arial 16 pt, Bold |
-| H3 | Heading 3 style, Arial 14 pt, Bold |
-| Gambar | Centered (Rata Tengah) |
-| Caption | Centered, 11 pt reguler, tepat di bawah gambar |
-| Bullet List | Simbol bullet `• `, hanging indent 0.25" |
-| Referensi | Simbol bullet `• `, font 10–11 pt |
-| Meta Table | 2 kolom di bagian paling atas |
+| Teks badan | Arial 11 pt, line spacing 1.15, spacing after 10 pt, spacing before 0, rata kiri-kanan |
+| H2 | Style Heading 2, Arial 16 pt, tebal, hitam, *keep with next* |
+| H3 | Style Heading 3, Arial 14 pt, tebal, hitam, *keep with next* |
+| List | List asli (bullet atau numbering), tanpa simbol yang diketik |
+| Tabel | Tabel asli, garis 1 px, baris header tebal |
+| Instruksi gambar dan caption | Rata tengah, 11 pt reguler |
+| Referensi | List asli, 10–11 pt |
+| Jarak | Hanya dari pengaturan paragraf, tanpa paragraf kosong |
