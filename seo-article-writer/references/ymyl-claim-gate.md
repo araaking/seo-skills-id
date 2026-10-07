@@ -26,7 +26,7 @@ Tingkatan ini sama dengan Prioritas 1–3 di skill `seo-content-outline`.
    - Tulis statusnya **secara kondisional sesuai sumber**. Contoh: BPOM menyatakan suntik putih yang beredar **tanpa izin edar** adalah produk ilegal. Jangan menggeneralisasi menjadi "semua infus whitening ilegal".
    - Urutan sumber: BPOM, Kemenkes, lalu IDI/perhimpunan spesialis. Regulator asing (FDA Filipina, FDA/CDC AS) hanya dipakai bila sumber Indonesia tidak membahas, dan negaranya disebut.
    - Tidak ketemu: tulis `[Verifikasi: status izin edar BPOM untuk X]` dan masukkan ke Catatan Editor.
-2. **Satu klaim, satu sumber.** Klaim efektivitas, keamanan, efek samping, dosis, durasi, atau kontraindikasi wajib punya sumber P1 atau P2 yang tercantum di Referensi. Klaim tanpa sumber punya tiga pilihan: dihapus, ditulis beserta status buktinya ("belum ada uji klinis yang membuktikan…"), atau ditandai `[Verifikasi]`. Klaim tanpa sumber tidak boleh diubah menjadi kalimat fakta yang lugas.
+2. **Satu klaim, satu sumber.** Klaim efektivitas, keamanan, efek samping, dosis, durasi, atau kontraindikasi wajib punya sumber P1 atau P2 yang tercantum di Referensi. Nama sumber di dalam kalimat ditautkan ke halaman yang dibuka (house-style.md bagian 10). Klaim tanpa sumber punya tiga pilihan: dihapus, ditulis beserta status buktinya ("belum ada uji klinis yang membuktikan…"), atau ditandai `[Verifikasi]`. Klaim tanpa sumber tidak boleh diubah menjadi kalimat fakta yang lugas.
 3. **Rute harus cocok.** Bukti dari pemakaian oral, topikal, atau suntikan di kulit **tidak berlaku** untuk infus atau IV, dan sebaliknya. Jika rute yang dibahas belum punya bukti, katakan itu.
 4. **Pisahkan tiga lapis klaim.**
    - (a) Klaim klinik atau produsen: atribusikan ("klinik mempromosikan…").
@@ -39,7 +39,8 @@ Tingkatan ini sama dengan Prioritas 1–3 di skill `seo-content-outline`.
    - `[Verifikasi]`: cari sumbernya. Jika tidak ketemu, tulis versi terkalibrasi dan masukkan ke Catatan Editor.
    - `[Review medis]`: tulis section-nya dengan kalibrasi ketat, lalu tambahkan "Bagian <H2> perlu ditinjau tenaga medis" di Catatan Editor.
    - `[Pengalaman]`: jangan dikarang. Minta materinya ke user, atau biarkan sebagai `[isi: pengalaman/kutipan praktisi tentang …]` dan catat di Catatan Editor.
-8. **Kutip regulatornya langsung.** Kutip pernyataan regulator itu sendiri. Jangan mengutip ulang daftar pustaka di dalam halamannya tanpa membuka sumber aslinya.
+8. **Kutip regulatornya langsung.** Kutip pernyataan regulator itu sendiri dan tautkan halamannya. Jangan mengutip ulang daftar pustaka di dalam halamannya tanpa membuka sumber aslinya.
+   - **Tulis temuan persis seperti yang dinyatakan sumber.** Buka abstrak atau halaman aslinya sebelum menulis. Jangan menambah kesimpulan, dan jangan memindahkan kesimpulan satu rute atau kelompok ke yang lain.
 9. **Catatan Editor YMYL selalu ada.** Isinya: status regulasi yang ditemukan, daftar klaim `[Verifikasi]`, placeholder yang tersisa, "Cek ulang Title dan Description", dan "Perlu ditinjau dokter/apoteker sebelum terbit".
 10. **Tanpa akses web:** jangan menulis klaim efektivitas atau keamanan sebagai fakta. Tulis versi terkalibrasi, tandai `[Verifikasi]`, dan sebutkan di Catatan Editor bahwa riset sumber belum dilakukan.
 
@@ -70,6 +71,11 @@ Tenang, jelas, dan terkalibrasi, bukan "otoritatif" yang terdengar pasti. Paragr
 
 - SALAH: "Efek samping serius jarang terjadi selama prosedur dilakukan oleh tenaga profesional."
 - BENAR: "BPOM mencatat risiko serius dari suntik putih tanpa izin edar, antara lain reaksi alergi berat (anafilaksis), infeksi hingga sepsis, serta gangguan ginjal dan hati. Konsultasikan riwayat alergi dan penyakit ginjal ke dokter sebelum tindakan."
+
+**Temuan sumber dibelokkan**
+
+- SALAH: "Tinjauan sistematis di *International Journal of Dermatology* (2025) mencatat perbaikan warna kulit dari glutathione intravena bersifat sementara." (sumbernya tidak menyatakan itu)
+- BENAR: "Tinjauan sistematis di [*International Journal of Dermatology*](https://pubmed.ncbi.nlm.nih.gov/39444151/) (2025) hanya menemukan satu uji berpembanding plasebo untuk glutathione intravena, dan hasilnya tidak berbeda bermakna secara statistik dari plasebo."
 
 **Status regulasi digeneralisasi**
 

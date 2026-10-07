@@ -104,7 +104,7 @@ BENAR (dua paragraf, klaim produsen tetap diatribusikan dan status buktinya teta
 
 > Produsen mengklaim kombinasi bahan aktifnya memecah timbunan lemak menjadi asam lemak bebas yang kemudian dibakar menjadi energi. Klaim ini berasal dari materi promosi produsen.
 >
-> Menurut NIH, carnitine memang mengangkut asam lemak rantai panjang ke mitokondria untuk diolah menjadi energi. Namun, kaitan fungsi umum ini dengan hasil suntikan produk tersebut belum dibuktikan uji klinis independen.
+> Menurut [NIH](https://contoh.com/halaman-nih-carnitine), carnitine memang mengangkut asam lemak rantai panjang ke mitokondria untuk diolah menjadi energi. Namun, kaitan fungsi umum ini dengan hasil suntikan produk tersebut belum dibuktikan uji klinis independen.
 
 ---
 
@@ -166,9 +166,46 @@ Contoh Pola Korelasi Positif, Negatif, dan Nol | Sumber: Nama Situs
 
 ---
 
-## 10. Internal Link dan Baca Juga
+## 10. Menyebut Sumber, Link, dan Baca Juga
 
-- **Link inline:** tautkan istilah penting saat pertama kali muncul, hanya ke URL yang benar-benar diberikan user atau ditemukan di situsnya.
+### Sumber di dalam kalimat adalah link
+
+- Setiap kali badan artikel menyebut sumber (jurnal, media, lembaga, regulator, atau pernyataan seorang dokter yang dimuat di sebuah halaman), **nama sumbernya menjadi link inline** ke halaman yang benar-benar dibuka saat menulis. Contoh: `[*International Journal of Dermatology*](https://pubmed.ncbi.nlm.nih.gov/39444151/)`.
+- Yang ditautkan adalah **nama sumbernya** (satu sampai lima kata), bukan satu kalimat penuh. Tautkan pada penyebutan pertama di setiap bagian H2, supaya paragraf tetap jelas bila dibaca terpisah. Jangan menautkan nama yang sama berkali-kali dalam satu paragraf.
+- Link menuju **halaman spesifik** (artikel, abstrak, atau dokumen yang memuat klaimnya), bukan beranda situs.
+- **Klaim status regulasi** (izin edar, larangan, peringatan) ditautkan ke halaman regulatornya sendiri (BPOM, Kemenkes, OJK). Kutipan media saja tidak cukup untuk klaim semacam ini.
+- Buku, jurnal cetak, atau sumber tanpa URL ditulis nama dan tahunnya tanpa link.
+- URL belum ada atau belum dibuka: tulis `[isi: URL sumber X]` dan catat di Catatan Editor. **Dilarang menebak URL.**
+- Setiap sumber yang ditautkan tetap tercantum di Referensi.
+- Utamakan sumber primer. Bila hanya ada kutipan sekunder, misalnya media yang mengutip seorang dokter, tautkan halaman yang benar-benar dibuka dan sebut siapa yang berbicara: "dr. X menjelaskan kepada [Nama Media](URL) bahwa…". Jangan menumpuk rantai "Menurut A yang mengutip B".
+
+### Menulis sumber dengan bahasa yang wajar
+
+- **Sumber jadi subjek, lalu kata kerja aktif yang umum:** menemukan, menyimpulkan, melaporkan, menyarankan, menyatakan, mencatat.
+- **Satu kalimat satu temuan.** Jangan menumpuk jenis studi, nama jurnal, tahun, objek kajian, temuan, dan tafsir dalam satu kalimat. Taruh temuannya di kalimat pertama, lalu artinya bagi pembaca di kalimat kedua.
+- **Tanpa "satu" atau "sebuah" di depan jenis studi** (jiplakan *a systematic review*). Tulis "Tinjauan sistematis di [Nama Jurnal] (2025) menemukan…".
+- **Tanpa "alias", "yakni", atau "bersifat X"** untuk menjelaskan ulang kata yang baru ditulis. Pilih satu kata sehari-hari ("hilang", "tidak bertahan"). Jika istilah teknis memang perlu, beri padanannya dalam tanda kurung.
+- **Tulis temuan persis seperti yang dinyatakan sumber.** Buka abstrak atau halamannya sebelum menulis. Jangan menambah kesimpulan yang tidak ada di sumber, dan jangan memindahkan kesimpulan satu rute atau kelompok ke rute atau kelompok lain. Jika sumbernya hanya menemukan satu uji kecil, sebut apa adanya.
+
+SALAH (nyata dari satu draf, padat dan kaku, dan temuannya tidak sesuai sumber):
+
+> Satu tinjauan sistematis di International Journal of Dermatology (2025) terhadap bukti glutathione intravena mencatat perbaikan warna kulit yang didapat bersifat reversibel, alias kembali ke kondisi semula begitu pemberian dihentikan.
+
+BENAR (abstrak PubMed 39444151 diperiksa Oktober 2026):
+
+> Tinjauan sistematis di [*International Journal of Dermatology*](https://pubmed.ncbi.nlm.nih.gov/39444151/) (2025) hanya menemukan satu uji berpembanding plasebo untuk glutathione intravena, dan hasilnya tidak berbeda bermakna secara statistik dari plasebo. Para penulisnya menyimpulkan glutathione intravena dikontraindikasikan (tidak boleh dipakai) untuk mencerahkan kulit karena kurang efektif dan menimbulkan efek samping.
+
+SALAH (sumber tanpa link, rantai kutipan, dan penguat kosong "pada dasarnya"):
+
+> Menurut Media Indonesia yang mengutip dr. Gregory Budiman, M.Biomed, pemberian obat lewat jalur intravena pada dasarnya diperuntukkan bagi pasien yang kondisinya tidak memungkinkan menerima obat lewat mulut, bukan untuk tujuan estetika rutin.
+
+BENAR:
+
+> dr. Gregory Budiman, M.Biomed menjelaskan kepada [Media Indonesia](https://contoh.com/artikel-media-indonesia) bahwa obat intravena disiapkan untuk pasien yang tidak bisa menerima obat lewat mulut, bukan untuk perawatan estetika rutin. Dokter bedah plastik dr. Tompi juga tidak merekomendasikan infus whitening dan meminta masyarakat memastikan izin edar BPOM sebelum menjalani tindakan suntik apa pun [isi: URL sumber pernyataan dr. Tompi].
+
+### Internal link dan Baca Juga
+
+- **Link internal:** tautkan istilah penting saat pertama kali muncul ke artikel lain di situs yang sama, hanya ke URL yang benar-benar diberikan user atau ditemukan di situsnya.
 - **Baca Juga:** 1–2 kali per artikel, di akhir sebuah bagian H2:
 
 ```markdown

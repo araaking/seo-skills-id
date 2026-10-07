@@ -60,7 +60,7 @@ Sesuaikan riset, gaya bahasa, dan kedalaman dengan kategorinya. Jangan memaksaka
 
 ## Menerjemahkan Outline atau Brief
 
-- **Catatan penulis adalah instruksi, bukan teks artikel.** Ubah menjadi prosa jadi. Buang label "H2:/H3:", arahan penyajian, dan sitasi pendek dari naskah.
+- **Catatan penulis adalah instruksi, bukan teks artikel.** Ubah menjadi prosa jadi. Buang label "H2:/H3:" dan arahan penyajian dari naskah. Sitasi pendek `[situs](URL)` di outline diubah menjadi link inline pada nama sumbernya di dalam kalimat.
 - **Struktur dan teks heading mengikuti outline.** Kembangkan setiap H2/H3/H4 sesuai arahan penyajiannya (paragraf, list, langkah bernomor, tabel, atau FAQ). Jika satu H3 hanya berisi 1–2 kalimat, gabungkan menjadi list di bawah H2.
 - **Penanda outline wajib dihormati.** Aturan ini mengalahkan larangan "jangan menulis catatan mentah":
   - `[Verifikasi]`: cari sumbernya. Jika tidak ketemu, tulis versi terkalibrasi atau biarkan `[Verifikasi: …]`, lalu catat di Catatan Editor.
@@ -84,7 +84,8 @@ Sesuaikan riset, gaya bahasa, dan kedalaman dengan kategorinya. Jangan memaksaka
 6. **Tidak mengarang** angka, studi, kutipan, pengalaman, atau URL. Gunakan `[isi: …]` atau `[Verifikasi: …]` dan catat di Catatan Editor.
 7. **Tanpa kontras biner** dalam bentuk apa pun ("tidak hanya… tetapi juga", "bukan sekadar", "banyak yang mengira… padahal"). "Berikut…" maksimal sekali per artikel.
 8. **Meta: Title 45–60 karakter, Description 130–155 karakter.** Hitung dengan kode bila bisa.
-9. **Panjang tanpa pengisi.** Default minimal 1.000 kata substansi. Untuk YMYL, jangan menambah butir tanpa sumber demi target kata.
+9. **Nama sumber di dalam teks adalah link.** Jurnal, media, lembaga, regulator, atau dokter yang dikutip ditautkan ke halaman yang benar-benar dibuka. Kalimat atribusinya wajar ("Tinjauan sistematis di [Jurnal] (2025) menemukan…"), tanpa "satu tinjauan…" atau "alias", dan temuannya sama dengan isi sumber. URL tidak diketahui: `[isi: URL sumber X]`, bukan tebakan (house-style.md bagian 10).
+10. **Panjang tanpa pengisi.** Default minimal 1.000 kata substansi. Untuk YMYL, jangan menambah butir tanpa sumber demi target kata.
 
 ---
 
@@ -107,6 +108,7 @@ Sesuaikan riset, gaya bahasa, dan kedalaman dengan kategorinya. Jangan memaksaka
 - [ ] Untuk YMYL, [ymyl-claim-gate.md](references/ymyl-claim-gate.md) lolos dan Catatan Editor ada.
 - [ ] Panjang Title dan Description sudah dihitung dan sesuai batas.
 - [ ] Semua sumber di Referensi benar-benar dibuka dan dipakai.
+- [ ] Setiap sumber yang disebut di badan artikel ditautkan, dan temuannya sudah dicocokkan dengan abstrak atau halaman aslinya.
 
 **Format**
 

@@ -167,6 +167,13 @@ def cek_dokumen(doc):
             masalah.append(f"Ada H1 di badan: {teks[:40]!r}")
         if re.match(r"^\s*(Title|Description|Slug)\s+[-–]\s", teks):
             masalah.append(f"Baris meta diratakan, bukan tabel: {teks[:40]!r}")
+    ada_link = any(
+        r.get("textRun", {}).get("textStyle", {}).get("link")
+        for e in isi if e.get("paragraph")
+        for r in e["paragraph"].get("elements", [])
+    )
+    if not ada_link:
+        masalah.append("Tidak ada link sama sekali: nama sumber di badan artikel belum ditautkan")
     return masalah
 ```
 
@@ -228,7 +235,8 @@ Baca ulang dokumen sungguhan. Tool yang menerima panggilan belum berarti hasilny
 - [ ] Tidak ada HEADING_1 di badan. Semua H2 memakai HEADING_2 dan semua H3 memakai HEADING_3, dan tidak ada heading palsu berupa teks tebal.
 - [ ] H2/H3 tebal dan hitam, dan body memakai Arial 11 pt.
 - [ ] Tidak ada simbol Markdown mentah (`**`, `##`, `|`, `[teks](url)`).
-- [ ] Istilah asing tampil miring dan link bisa diklik.
+- [ ] Istilah asing tampil miring.
+- [ ] Nama sumber di badan artikel (jurnal, media, regulator, dokter) berupa link yang bisa diklik dan menuju halaman spesifik, bukan beranda. Tidak ada nama sumber tanpa link kecuali placeholder `[isi: URL …]`.
 
 ---
 

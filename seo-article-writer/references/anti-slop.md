@@ -120,7 +120,7 @@ Setiap paragraf dua kalimat, setiap H3 satu paragraf, dan setiap kalimat sepanja
 
 ## 4. Terjemahan Kaku (Indoglish Gramatikal)
 
-1. **"Sebuah/seorang" yang tidak perlu (jiplakan *a/an*):**
+1. **"Sebuah/seorang/satu" yang tidak perlu (jiplakan *a/an*):** termasuk "Satu tinjauan sistematis…" atau "Sebuah studi…" di depan jenis penelitian. Tulis "Tinjauan sistematis di…" atau "Studi di…".
    - ❌ "Doxycycline adalah sebuah antibiotik…" ➡️ ✅ "Doxycycline adalah antibiotik…"
    - ❌ "Ia merupakan seorang dokter kulit…" ➡️ ✅ "Ia dokter kulit…"
 2. **"Di mana" dan "yang mana" (jiplakan *where/which*):** "di mana" hanya untuk menanyakan atau menunjuk **tempat fisik**.
@@ -168,13 +168,22 @@ Em dash yang bertebaran terasa asing dalam prosa bahasa Indonesia. Pakai maksima
 
 - ❌ "DHA juga **telah diteliti**…", "**Sebagian meta-analisis** menemukan…", "**Sejumlah uji klinis** menunjukkan…", "**Penelitian menunjukkan**…"
 - ❌ "**Para ahli sepakat** bahwa…", "**Beberapa kelompok ahli** menyarankan…", "**Dokter spesialis** menilai…" (tanpa nama atau lembaga)
-- ✅ **Solusi 1, bila sumbernya bernama:** sebut lembaga atau dokumennya langsung ("Tinjauan Cochrane menemukan…", "Pedoman ACOG menyarankan…"). Ini hanya boleh dilakukan bila dokumennya benar-benar ada di sumber yang dibuka.
+- ✅ **Solusi 1, bila sumbernya bernama:** sebut lembaga atau dokumennya langsung dan tautkan namanya ("Tinjauan Cochrane menemukan…", "Pedoman ACOG menyarankan…"). Ini hanya boleh dilakukan bila dokumennya benar-benar ada di sumber yang dibuka.
 - ✅ **Solusi 2, bila tidak ada nama studi:** buang embel-embel penelitian hantu dan sampaikan faktanya **beserta status buktinya** dalam kalimat aktif.
   - *Bukan:* "DHA telah diteliti dan sebagian penelitian menemukan kemungkinan manfaat…"
   - *Melainkan:* "Asupan DHA berpotensi membantu menurunkan risiko preeklamsia, meski hasil uji klinisnya belum konsisten."
   - **Untuk YMYL,** klaim efektivitas atau keamanan tanpa sumber bernama **tidak boleh** dijadikan kalimat fakta. Pilih salah satu: sebut sumbernya, tulis status buktinya, atau tandai `[Verifikasi: …]` (lihat ymyl-claim-gate.md).
 
-### C. Dilarang Mengarang Angka
+### C. Menyebut Sumber dengan Bahasa Wajar dan Link
+
+Penyebutan sumber sering berubah menjadi kalimat kaku yang menumpuk jenis studi, jurnal, tahun, objek, dan tafsir sekaligus. Contoh yang dilarang: "Satu tinjauan sistematis di [jurnal] (2025) terhadap bukti [zat] mencatat perbaikan yang didapat bersifat reversibel, alias kembali ke kondisi semula."
+
+- Jadikan sumber sebagai subjek dengan kata kerja aktif ("menemukan", "menyimpulkan"). Taruh satu temuan per kalimat.
+- Jangan memakai "alias" atau "yakni" untuk menjelaskan ulang kata sendiri, dan jangan memakai "bersifat reversibel" atau "terhadap bukti". Pilih kata sehari-hari ("hilang", "tidak bertahan").
+- **Nama sumber di badan artikel ditautkan** ke halaman yang dibuka (aturan lengkap dan contohnya di house-style.md bagian 10).
+- Tulis temuan persis seperti yang dinyatakan sumber. Jangan menambah atau membelokkan kesimpulannya.
+
+### D. Dilarang Mengarang Angka
 
 Jangan mengarang persentase ("turun 37%"), nama studi ("menurut riset Oxford 2024"), kutipan dokter, atau URL. Jika angka pasti tidak ada di outline atau sumber, sampaikan secara kualitatif dengan jujur.
 
@@ -192,5 +201,7 @@ Jangan mengarang persentase ("turun 37%"), nama studi ("menurut riset Oxford 202
 - [ ] Ritme bervariasi, tidak seragam.
 - [ ] Tidak ada "tertentu", "sebagian kasus", atau "beberapa orang" tanpa contoh konkret.
 - [ ] Tidak ada penelitian hantu atau ahli tanpa nama.
+- [ ] Setiap sumber yang disebut di badan artikel ditautkan ke halaman yang dibuka, dan kalimat atribusinya wajar (tanpa "satu tinjauan…", "alias", "bersifat reversibel").
+- [ ] Temuan yang dikutip sama dengan yang dinyatakan sumber, bukan hasil tafsir tambahan.
 - [ ] Untuk YMYL, setiap klaim manfaat atau keamanan bersumber, terkalibrasi, atau bertanda `[Verifikasi]`, dan tidak ada kalimat penenang tanpa data.
 - [ ] Penutup tanpa salam klise atau janji hasil.

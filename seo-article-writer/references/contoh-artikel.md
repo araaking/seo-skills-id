@@ -127,7 +127,7 @@ Bintik paling sering muncul di lengan atas, paha, dan bokong, sedangkan pada ana
 
 ## Perawatan Mandiri untuk Menghaluskan Kulit
 
-Perawatan *chicken skin* bertumpu pada dua hal: melembapkan kulit setiap hari dan meluruhkan sumbatan keratin dengan lembut. American Academy of Dermatology (AAD) menyarankan untuk tidak menggosok kulit dengan *scrub* kasar karena gesekan bisa memperparah kemerahan.
+Perawatan *chicken skin* bertumpu pada dua hal: melembapkan kulit setiap hari dan meluruhkan sumbatan keratin dengan lembut. [American Academy of Dermatology (AAD)](https://www.aad.org/public/diseases/a-z/keratosis-pilaris-treatment) menyarankan untuk tidak menggosok kulit dengan *scrub* kasar karena gesekan bisa memperparah kemerahan.
 
 Kebiasaan mandi ikut menentukan hasilnya. Langkah yang dianjurkan AAD antara lain:
 
