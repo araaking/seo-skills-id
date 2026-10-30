@@ -1,15 +1,17 @@
 # SEO Skills ID
 
-Koleksi custom AI skills (Antigravity / Claude / Cursor) berbahasa Indonesia untuk riset konten SEO, penyusunan outline berbasis SERP, penulisan draf artikel berkualitas tinggi, dan optimasi metadata pencarian.
+Koleksi custom AI skills (Antigravity / Claude / Cursor) berbahasa Indonesia untuk riset konten SEO, penyusunan outline berbasis SERP, penulisan draf artikel berkualitas tinggi, optimasi metadata pencarian, dan audit kualitas konten berbasis standar Google.
 
 ## 📦 Daftar Skills
 
-Repository ini terdiri dari tiga skill modular yang dapat digunakan secara independen maupun sebagai satu alur kerja terpadu (*SEO pipeline*):
+Repository ini terdiri dari empat skill modular yang dapat digunakan secara independen maupun sebagai satu alur kerja terpadu (*SEO pipeline*):
 
 ```text
-[Topik / Keyword / URL] 
-       │
-       ▼
+                 4. sqrg-seo-foundation  ──> Standar kualitas (SQRG + Spam Policies)
+                         ┆ dipakai di setiap tahap & untuk audit
+[Topik / Keyword / URL]  ┆
+       │                 ┆
+       ▼                 ┆
 1. seo-content-outline  ──> Menghasilkan Cetak Biru (Blueprint / Brief / Sitasi per Poin)
        │
        ▼
@@ -42,6 +44,13 @@ Skill khusus untuk membuat Meta Title (Title Tag), Meta Description, dan URL Slu
 * **Batasan Karakter Ketat:** Title 45–60 karakter (aman di mobile), Description 130–155 karakter (lead with value + CTA), dan Slug kebab-case ringkas.
 * **Standar Industri:** Menggabungkan pedoman resmi Google Search Central dan formula copywriting Edition Group.
 
+### 4. `sqrg-seo-foundation`
+Basis pengetahuan dan alat audit kualitas konten berdasarkan dua dokumen Google, ditulis ulang dengan bahasa sendiri dalam dua bahasa (`references/id/` dan `references/en/`):
+* **Search Quality Rater Guidelines (edisi 11 Sep 2025):** Page Quality, E-E-A-T, YMYL, kriteria Lowest sampai Highest, konten AI dan produksi massal, search intent, dan skala Needs Met, lengkap dengan rujukan bagian dan halaman PDF.
+* **Spam Policies Google Search (diperbarui 28 Agu 2026):** cloaking, doorway, sneaky redirect, teks tersembunyi, link spam, scaled content abuse, thin affiliation, site reputation policy (termasuk perubahan EEA), dan praktik lain yang memicu demotion.
+* **Checklist Audit Bertahap:** urutan cek ala rater (bahaya dan spam dulu, baru kualitas), plus template laporan audit.
+* **Pendamping Pipeline:** dipakai sebagai standar kualitas saat membuat outline dan menulis artikel, serta untuk menjawab "kenapa halaman ini susah ranking" atau "aman nggak pakai AI untuk artikel kesehatan".
+
 ---
 
 ## 🚀 Cara Pemasangan & Penggunaan
@@ -55,6 +64,7 @@ Skill khusus untuk membuat Meta Title (Title Tag), Meta Description, dan URL Slu
    * Gunakan `seo-content-outline` saat memulai perencanaan topik/keyword.
    * Gunakan `seo-article-writer` dengan melampirkan hasil outline untuk memproduksi artikel utuh.
    * Gunakan `seo-meta-generator` untuk meracik metadata halaman (baik untuk artikel blog maupun landing page). Artikel dari `seo-article-writer` sudah memuat tabel meta; pakai skill ini bila butuh 3 varian A/B atau metadata untuk halaman non-artikel.
+   * Gunakan `sqrg-seo-foundation` untuk mengaudit artikel/halaman/situs, mengecek E-E-A-T dan YMYL, atau sebagai standar kualitas di tahap mana pun.
 
 ---
 
